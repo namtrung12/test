@@ -7,7 +7,7 @@ Web app tĩnh `HTML/CSS/JS` để deploy trực tiếp lên GitHub Pages.
 - Chỉ có `1` bộ đề tổng hợp duy nhất.
 - Dữ liệu câu hỏi chạy từ `data/question-bank.json`.
 - Reload trang không tự đổi đề:
-  Chỉ khi bấm `Trộn đề mới` hoặc `Làm lại đề` thì app mới sinh một bộ khác.
+  Chỉ khi bấm `Trộn bộ mới` hoặc `Làm lại đề` thì app mới sinh một bộ khác.
 - Có `2` chế độ:
   - `Luyện tập`: nộp xong hiện ngay đáp án và giải thích.
   - `Thi thật`: nộp xong hiện điểm trước, bấm xem mới mở đáp án chi tiết.

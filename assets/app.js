@@ -178,7 +178,7 @@
             return true;
         }
 
-        return window.confirm('Bạn đang làm dở bộ đề này. Trộn đề mới sẽ mất các đáp án đã chọn. Tiếp tục chứ?');
+        return window.confirm('Bạn đang làm dở bộ đề này. Trộn bộ mới sẽ mất các đáp án đã chọn. Tiếp tục chứ?');
     }
 
     function hasAnyAnswer() {
@@ -324,7 +324,7 @@
         });
 
         elements.quizSummary.textContent = [
-            'Bộ đề này có ' + state.quiz.length + ' câu, chỉ trộn lại khi bấm Trộn đề mới hoặc Làm lại đề.',
+            'Bộ đề này có ' + state.quiz.length + ' câu, chỉ trộn lại khi bấm Trộn bộ mới hoặc Làm lại đề.',
             counts.mcq + ' câu A/B/C/D',
             counts.trueFalse + ' câu Đúng/Sai',
             counts.match + ' câu ghép ý',
