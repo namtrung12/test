@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ Test Vận Động Trị Liệu</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <main class="shell">
+        <section class="hero">
+            <p class="eyebrow">Bộ đề trắc nghiệm từ giáo trình</p>
+            <h1>Bộ test Vận động trị liệu</h1>
+            <p class="hero-copy">
+                Chạy hoàn toàn bằng HTML, CSS và JavaScript. Có chọn bài, sinh đề, trộn câu hỏi,
+                trộn đáp án, chấm điểm và hiện đáp án sau khi nộp.
+            </p>
+            <div class="hero-meta" id="hero-meta"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-head">
+                <div>
+                    <h2>Tạo đề</h2>
+                    <p>
+                        Nguồn dữ liệu lấy từ file <code>5.VẬN ĐỘNG TRỊ LIỆU 2022 new.docx</code>.
+                        Một số bài chỉ có phần tự luận nên đã được bổ sung thêm câu trắc nghiệm từ chính nội dung bài đó.
+                    </p>
+                </div>
+                <div class="actions-inline">
+                    <button class="ghost" type="button" id="select-all-lessons">Chọn tất cả</button>
+                    <button class="ghost" type="button" id="clear-all-lessons">Bỏ chọn</button>
+                </div>
+            </div>
+
+            <div class="control-grid">
+                <label class="field">
+                    <span>Số câu muốn lấy</span>
+                    <select id="question-count">
+                        <option value="10">10 câu</option>
+                        <option value="20" selected>20 câu</option>
+                        <option value="30">30 câu</option>
+                        <option value="40">40 câu</option>
+                        <option value="all">Toàn bộ câu đã chọn</option>
+                    </select>
+                </label>
+
+                <div class="field checkbox-field">
+                    <span>Tùy chọn đề</span>
+                    <label><input type="checkbox" id="shuffle-questions" checked> Trộn thứ tự câu hỏi</label>
+                    <label><input type="checkbox" id="shuffle-options" checked> Trộn thứ tự đáp án</label>
+                </div>
+            </div>
+
+            <div class="field">
+                <span>Chọn bài học</span>
+                <div class="lesson-grid" id="lesson-grid"></div>
+            </div>
+
+            <div class="create-row">
+                <button class="primary" type="button" id="generate-quiz">Tạo đề ngay</button>
+                <p class="hint" id="selection-summary"></p>
+            </div>
+        </section>
+
+        <section class="panel hidden" id="quiz-panel">
+            <div class="panel-head">
+                <div>
+                    <h2>Đề đang làm</h2>
+                    <p id="quiz-summary"></p>
+                </div>
+                <button class="ghost" type="button" id="reset-quiz">Tạo đề khác</button>
+            </div>
+
+            <form id="quiz-form" novalidate>
+                <div id="quiz-questions" class="question-stack"></div>
+                <div class="submit-row">
+                    <button class="primary" type="submit">Nộp bài và chấm điểm</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="panel hidden" id="result-panel">
+            <div class="panel-head">
+                <div>
+                    <h2>Kết quả</h2>
+                    <p>Điểm được tính tự động ngay trên trình duyệt.</p>
+                </div>
+            </div>
+
+            <div class="score-card">
+                <div class="score-main">
+                    <strong id="score-value">0/0</strong>
+                    <span id="score-percent">0%</span>
+                </div>
+                <p id="score-note"></p>
+            </div>
+
+            <div class="lesson-breakdown" id="lesson-breakdown"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-head">
+                <div>
+                    <h2>Ngân hàng câu hỏi</h2>
+                    <p>Có thể dùng để rà đáp án, ôn tập hoặc kiểm tra nhanh từng bài.</p>
+                </div>
+            </div>
+            <div id="question-bank" class="bank-stack"></div>
+        </section>
+    </main>
+
+    <noscript>
+        <div class="noscript">Trang này cần JavaScript để sinh đề và chấm điểm.</div>
+    </noscript>
+
+    <script src="data/question-bank.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>
