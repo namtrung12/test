@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bộ đề trắc nghiệm Vận động trị liệu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -22,8 +25,7 @@
             <p class="eyebrow">Bộ đề tổng hợp duy nhất</p>
             <h1>Trắc nghiệm Vận động trị liệu</h1>
             <p class="hero-copy">
-                Vào web là làm bài ngay. Toàn bộ dữ liệu đề lưu local JSON, đã quy về một kiểu duy nhất
-                là câu hỏi trắc nghiệm chọn đáp án. Nộp bài xong web sẽ chấm ngay và tự nhảy xuống phần giải thích.
+                Chạm vào đáp án là biết đúng hay sai ngay, kèm đáp án đúng và giải thích ngay dưới câu đó.
             </p>
             <div class="hero-meta" id="hero-meta"></div>
             <p class="hero-note" id="hero-note"></p>
@@ -40,16 +42,13 @@
 
             <form id="quiz-form" novalidate>
                 <div id="quiz-questions" class="question-stack"></div>
-                <div class="submit-row">
-                    <button class="primary" type="submit" id="submit-quiz">Nộp bài</button>
-                </div>
             </form>
         </section>
 
         <section class="panel hidden" id="result-panel">
             <div class="panel-head">
                 <div>
-                    <h2>Kết quả và giải thích</h2>
+                    <h2>Tổng kết bộ đề</h2>
                     <p id="result-subtitle"></p>
                 </div>
                 <div class="actions-inline">
@@ -70,8 +69,6 @@
                 <div class="summary-pill" id="wrong-count">0 câu sai</div>
                 <div class="summary-pill" id="blank-count">0 câu bỏ trống</div>
             </div>
-
-            <div class="explanation-stack" id="explanation-list"></div>
         </section>
     </main>
 

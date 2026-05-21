@@ -3,6 +3,7 @@
     --bg-soft: #fbf8f1;
     --surface: rgba(255, 253, 248, 0.94);
     --surface-strong: #fffdf9;
+    --font-ui: "Be Vietnam Pro", "Noto Sans", "Segoe UI", Arial, sans-serif;
     --text: #1f2a2d;
     --muted: #5f6868;
     --line: #d7cec0;
@@ -28,12 +29,19 @@
 
 html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
     margin: 0;
     color: var(--text);
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-ui);
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background:
         radial-gradient(circle at top left, rgba(180, 110, 67, 0.14), transparent 32%),
         radial-gradient(circle at top right, rgba(32, 90, 82, 0.12), transparent 30%),
@@ -44,7 +52,10 @@ h1,
 h2,
 h3 {
     margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-ui);
+    font-weight: 700;
+    letter-spacing: 0;
+    word-spacing: 0;
 }
 
 p {
@@ -347,12 +358,17 @@ h2 {
 
 .question-title {
     font-size: 1.06rem;
-    line-height: 1.55;
+    line-height: 1.48;
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-weight: 700;
+    text-wrap: pretty;
 }
 
 .question-lesson {
     margin-top: 0.4rem;
     font-size: 0.94rem;
+    letter-spacing: 0;
 }
 
 .option-list {
@@ -408,6 +424,8 @@ h2 {
 .option-copy {
     flex: 1;
     line-height: 1.55;
+    letter-spacing: 0;
+    word-spacing: 0;
 }
 
 .review-line + .review-line {
@@ -599,6 +617,129 @@ h2 {
 }
 
 @media (max-width: 719px) {
+    .progress-shell {
+        margin-top: 0.4rem;
+        padding: 0.72rem 0.82rem;
+        border-radius: 16px;
+    }
+
+    .progress-copy {
+        gap: 0.14rem;
+        margin-bottom: 0.55rem;
+    }
+
+    .progress-copy strong {
+        font-size: 0.9rem;
+    }
+
+    .progress-copy span {
+        font-size: 0.82rem;
+    }
+
+    .shell {
+        width: min(980px, calc(100% - 0.7rem));
+        padding-top: 0.7rem;
+    }
+
+    .hero {
+        padding: 1rem;
+        margin-bottom: 0.8rem;
+        border-radius: 22px;
+    }
+
+    .hero-copy,
+    .hero-note {
+        font-size: 0.94rem;
+        line-height: 1.5;
+    }
+
+    .panel {
+        padding: 0.82rem;
+        margin-bottom: 0.82rem;
+        border-radius: 22px;
+    }
+
+    .panel-head {
+        gap: 0.65rem;
+        margin-bottom: 0.82rem;
+    }
+
+    .panel-head h2 {
+        font-size: 1.32rem;
+        line-height: 1.22;
+    }
+
+    .panel-head p {
+        font-size: 0.92rem;
+        line-height: 1.45;
+    }
+
+    .question-stack {
+        gap: 0.72rem;
+    }
+
+    .question-card {
+        padding: 0.82rem;
+        border-radius: 18px;
+    }
+
+    .question-head {
+        gap: 0.52rem;
+        margin-bottom: 0.58rem;
+    }
+
+    .question-badges {
+        gap: 0.42rem;
+    }
+
+    .badge,
+    .answer-state {
+        font-size: 0.74rem;
+        padding: 0.28rem 0.62rem;
+    }
+
+    .question-title {
+        font-size: 0.98rem;
+        line-height: 1.42;
+    }
+
+    .question-lesson {
+        margin-top: 0.28rem;
+        font-size: 0.86rem;
+        line-height: 1.4;
+    }
+
+    .option-list {
+        gap: 0.52rem;
+        margin-top: 0.72rem;
+    }
+
+    .option {
+        gap: 0.62rem;
+        padding: 0.74rem 0.78rem;
+        border-radius: 14px;
+    }
+
+    .option input {
+        margin-top: 0.14rem;
+        transform: scale(0.98);
+    }
+
+    .option-label {
+        min-width: 1.8rem;
+        min-height: 1.8rem;
+        font-size: 0.9rem;
+    }
+
+    .option-copy {
+        font-size: 0.96rem;
+        line-height: 1.42;
+    }
+
+    .submit-row {
+        margin-top: 0.82rem;
+    }
+
     .actions-inline {
         width: 100%;
     }
