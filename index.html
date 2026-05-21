@@ -3,79 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bộ Test Vận Động Trị Liệu</title>
+    <title>Bộ đề trắc nghiệm Vận động trị liệu</title>
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+    <div class="progress-shell">
+        <div class="progress-copy">
+            <strong id="progress-text">Đang tải bộ đề...</strong>
+            <span id="progress-meta"></span>
+        </div>
+        <div class="progress-track">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+
     <main class="shell">
         <section class="hero">
-            <p class="eyebrow">Bộ đề trắc nghiệm từ giáo trình</p>
-            <h1>Bộ test Vận động trị liệu</h1>
+            <p class="eyebrow">Bộ đề tổng hợp duy nhất</p>
+            <h1>Trắc nghiệm Vận động trị liệu</h1>
             <p class="hero-copy">
-                Chạy hoàn toàn bằng HTML, CSS và JavaScript. Có chọn bài, sinh đề, trộn câu hỏi,
-                trộn đáp án, chấm điểm và hiện đáp án sau khi nộp.
+                Vào web là làm bài ngay. Toàn bộ dữ liệu đề lưu local JSON. Bộ đề đang làm sẽ được giữ
+                nguyên nếu lỡ tải lại trang, chỉ đổi khi bấm trộn đề mới hoặc làm lại đề.
             </p>
             <div class="hero-meta" id="hero-meta"></div>
+
+            <div class="mode-switch" role="tablist" aria-label="Chọn chế độ làm bài">
+                <button type="button" class="mode-chip active" id="mode-practice">Luyện tập</button>
+                <button type="button" class="mode-chip" id="mode-exam">Thi thật</button>
+            </div>
+            <p class="mode-note" id="mode-note"></p>
         </section>
 
-        <section class="panel">
+        <section class="panel" id="quiz-panel">
             <div class="panel-head">
                 <div>
-                    <h2>Tạo đề</h2>
-                    <p>
-                        Nguồn dữ liệu lấy từ file <code>5.VẬN ĐỘNG TRỊ LIỆU 2022 new.docx</code>.
-                        Một số bài chỉ có phần tự luận nên đã được bổ sung thêm câu trắc nghiệm từ chính nội dung bài đó.
-                    </p>
-                </div>
-                <div class="actions-inline">
-                    <button class="ghost" type="button" id="select-all-lessons">Chọn tất cả</button>
-                    <button class="ghost" type="button" id="clear-all-lessons">Bỏ chọn</button>
-                </div>
-            </div>
-
-            <div class="control-grid">
-                <label class="field">
-                    <span>Số câu muốn lấy</span>
-                    <select id="question-count">
-                        <option value="10">10 câu</option>
-                        <option value="20" selected>20 câu</option>
-                        <option value="30">30 câu</option>
-                        <option value="40">40 câu</option>
-                        <option value="all">Toàn bộ câu đã chọn</option>
-                    </select>
-                </label>
-
-                <div class="field checkbox-field">
-                    <span>Tùy chọn đề</span>
-                    <label><input type="checkbox" id="shuffle-questions" checked> Trộn thứ tự câu hỏi</label>
-                    <label><input type="checkbox" id="shuffle-options" checked> Trộn thứ tự đáp án</label>
-                </div>
-            </div>
-
-            <div class="field">
-                <span>Chọn bài học</span>
-                <div class="lesson-grid" id="lesson-grid"></div>
-            </div>
-
-            <div class="create-row">
-                <button class="primary" type="button" id="generate-quiz">Tạo đề ngay</button>
-                <p class="hint" id="selection-summary"></p>
-            </div>
-        </section>
-
-        <section class="panel hidden" id="quiz-panel">
-            <div class="panel-head">
-                <div>
-                    <h2>Đề đang làm</h2>
+                    <h2>Bộ đề đang làm</h2>
                     <p id="quiz-summary"></p>
                 </div>
-                <button class="ghost" type="button" id="reset-quiz">Tạo đề khác</button>
+                <button class="ghost" type="button" id="restart-top">Trộn đề mới</button>
             </div>
 
             <form id="quiz-form" novalidate>
                 <div id="quiz-questions" class="question-stack"></div>
                 <div class="submit-row">
-                    <button class="primary" type="submit">Nộp bài và chấm điểm</button>
+                    <button class="primary" type="submit" id="submit-quiz">Nộp bài</button>
                 </div>
             </form>
         </section>
@@ -83,8 +54,12 @@
         <section class="panel hidden" id="result-panel">
             <div class="panel-head">
                 <div>
-                    <h2>Kết quả</h2>
-                    <p>Điểm được tính tự động ngay trên trình duyệt.</p>
+                    <h2>Kết quả chấm bài</h2>
+                    <p id="result-subtitle"></p>
+                </div>
+                <div class="actions-inline">
+                    <button class="ghost hidden" type="button" id="reveal-answers">Xem đáp án chi tiết</button>
+                    <button class="primary" type="button" id="restart-bottom">Làm lại đề</button>
                 </div>
             </div>
 
@@ -96,25 +71,18 @@
                 <p id="score-note"></p>
             </div>
 
-            <div class="lesson-breakdown" id="lesson-breakdown"></div>
-        </section>
-
-        <section class="panel">
-            <div class="panel-head">
-                <div>
-                    <h2>Ngân hàng câu hỏi</h2>
-                    <p>Có thể dùng để rà đáp án, ôn tập hoặc kiểm tra nhanh từng bài.</p>
-                </div>
+            <div class="result-grid">
+                <div class="summary-pill" id="correct-count">0 câu đúng</div>
+                <div class="summary-pill" id="wrong-count">0 câu sai</div>
+                <div class="summary-pill" id="blank-count">0 câu bỏ trống</div>
             </div>
-            <div id="question-bank" class="bank-stack"></div>
         </section>
     </main>
 
     <noscript>
-        <div class="noscript">Trang này cần JavaScript để sinh đề và chấm điểm.</div>
+        <div class="noscript">Trang này cần JavaScript để tải dữ liệu JSON, trộn đề và chấm điểm.</div>
     </noscript>
 
-    <script src="data/question-bank.js"></script>
     <script src="assets/app.js"></script>
 </body>
 </html>
