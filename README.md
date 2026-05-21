@@ -6,11 +6,11 @@ Web app tĩnh `HTML/CSS/JS` để deploy trực tiếp lên GitHub Pages.
 
 - Chỉ có `1` bộ đề tổng hợp duy nhất.
 - Dữ liệu câu hỏi chạy từ `data/question-bank.json`.
+- Toàn bộ giao diện làm bài là `trắc nghiệm chọn đáp án`.
+- Các câu `ghép ý` được quy đổi thành nhiều câu trắc nghiệm để vẫn giữ được tối đa nội dung.
 - Reload trang không tự đổi đề:
   Chỉ khi bấm `Trộn bộ mới` hoặc `Làm lại đề` thì app mới sinh một bộ khác.
-- Có `2` chế độ:
-  - `Luyện tập`: nộp xong hiện ngay đáp án và giải thích.
-  - `Thi thật`: nộp xong hiện điểm trước, bấm xem mới mở đáp án chi tiết.
+- Nộp bài xong web chấm ngay và tự cuộn xuống phần kết quả kèm giải thích chi tiết.
 
 ## File chính
 

@@ -22,16 +22,11 @@
             <p class="eyebrow">Bộ đề tổng hợp duy nhất</p>
             <h1>Trắc nghiệm Vận động trị liệu</h1>
             <p class="hero-copy">
-                Vào web là làm bài ngay. Toàn bộ dữ liệu đề lưu local JSON. Bộ đề đang làm sẽ được giữ
-                nguyên nếu lỡ tải lại trang, chỉ đổi khi bấm trộn đề mới hoặc làm lại đề.
+                Vào web là làm bài ngay. Toàn bộ dữ liệu đề lưu local JSON, đã quy về một kiểu duy nhất
+                là câu hỏi trắc nghiệm chọn đáp án. Nộp bài xong web sẽ chấm ngay và tự nhảy xuống phần giải thích.
             </p>
             <div class="hero-meta" id="hero-meta"></div>
-
-            <div class="mode-switch" role="tablist" aria-label="Chọn chế độ làm bài">
-                <button type="button" class="mode-chip active" id="mode-practice">Luyện tập</button>
-                <button type="button" class="mode-chip" id="mode-exam">Thi thật</button>
-            </div>
-            <p class="mode-note" id="mode-note"></p>
+            <p class="hero-note" id="hero-note"></p>
         </section>
 
         <section class="panel" id="quiz-panel">
@@ -54,11 +49,10 @@
         <section class="panel hidden" id="result-panel">
             <div class="panel-head">
                 <div>
-                    <h2>Kết quả chấm bài</h2>
+                    <h2>Kết quả và giải thích</h2>
                     <p id="result-subtitle"></p>
                 </div>
                 <div class="actions-inline">
-                    <button class="ghost hidden" type="button" id="reveal-answers">Xem đáp án chi tiết</button>
                     <button class="primary" type="button" id="restart-bottom">Làm lại đề</button>
                 </div>
             </div>
@@ -76,6 +70,8 @@
                 <div class="summary-pill" id="wrong-count">0 câu sai</div>
                 <div class="summary-pill" id="blank-count">0 câu bỏ trống</div>
             </div>
+
+            <div class="explanation-stack" id="explanation-list"></div>
         </section>
     </main>
 

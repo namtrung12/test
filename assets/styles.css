@@ -197,11 +197,12 @@ h2 {
 }
 
 .hero-copy,
+.hero-note,
 .panel-head p,
 .question-lesson,
+.explanation-meta,
 .review-line,
 .score-card p,
-.mode-note,
 .noscript {
     color: var(--muted);
     line-height: 1.6;
@@ -230,28 +231,7 @@ h2 {
     font-size: 0.92rem;
 }
 
-.mode-switch {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 0.65rem;
-    margin-top: 1rem;
-}
-
-.mode-chip {
-    background: rgba(255, 255, 255, 0.75);
-    color: var(--text);
-    border: 1px solid var(--line);
-    box-shadow: none;
-}
-
-.mode-chip.active {
-    background: linear-gradient(135deg, var(--accent), #2d756a);
-    color: #fff;
-    border-color: transparent;
-    box-shadow: 0 10px 24px rgba(32, 90, 82, 0.18);
-}
-
-.mode-note {
+.hero-note {
     margin-top: 0.8rem;
 }
 
@@ -292,11 +272,6 @@ h2 {
 
 .question-card.unanswered {
     border-color: rgba(215, 206, 192, 0.9);
-}
-
-.question-card.partial {
-    border-color: rgba(163, 110, 19, 0.34);
-    background: rgba(249, 238, 210, 0.46);
 }
 
 .question-card.answered {
@@ -363,11 +338,6 @@ h2 {
 .answer-state.pending {
     background: rgba(95, 104, 104, 0.12);
     color: var(--muted);
-}
-
-.answer-state.partial {
-    background: var(--warn-soft);
-    color: var(--warn);
 }
 
 .answer-state.done {
@@ -440,61 +410,6 @@ h2 {
     line-height: 1.55;
 }
 
-.match-list {
-    display: grid;
-    gap: 0.75rem;
-    margin-top: 0.95rem;
-}
-
-.match-row {
-    display: grid;
-    gap: 0.7rem;
-    padding: 0.9rem;
-    border: 1px solid var(--line);
-    border-radius: var(--radius-md);
-    background: #fff;
-}
-
-.match-row.selected {
-    border-color: rgba(32, 90, 82, 0.42);
-    background: rgba(222, 236, 233, 0.65);
-}
-
-.match-left {
-    display: flex;
-    gap: 0.72rem;
-    align-items: flex-start;
-    line-height: 1.5;
-}
-
-.match-order {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 999px;
-    background: rgba(32, 90, 82, 0.1);
-    color: var(--accent);
-    font-weight: 700;
-    flex-shrink: 0;
-}
-
-.match-right select {
-    width: 100%;
-    padding: 0.88rem 0.95rem;
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    background: #fff;
-    color: var(--text);
-}
-
-.review-block {
-    margin-top: 1rem;
-    padding-top: 0.95rem;
-    border-top: 1px dashed rgba(95, 104, 104, 0.25);
-}
-
 .review-line + .review-line {
     margin-top: 0.45rem;
 }
@@ -548,6 +463,72 @@ h2 {
 
 .score-card p {
     margin-top: 0.55rem;
+}
+
+.explanation-stack {
+    display: grid;
+    gap: 0.9rem;
+    margin-top: 1rem;
+}
+
+.explanation-card {
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--surface-strong);
+}
+
+.explanation-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.8rem;
+}
+
+.explanation-head > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.explanation-card h3 {
+    font-size: 1.02rem;
+    line-height: 1.55;
+}
+
+.explanation-meta {
+    margin-top: 0.35rem;
+}
+
+.explanation-status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.34rem 0.78rem;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.explanation-status.good {
+    background: var(--good-soft);
+    color: var(--good);
+}
+
+.explanation-status.bad {
+    background: var(--bad-soft);
+    color: var(--bad);
+}
+
+.explanation-status.blank {
+    background: var(--warn-soft);
+    color: var(--warn);
+}
+
+.explanation-card .review-line:first-of-type {
+    margin-top: 0.8rem;
 }
 
 .result-grid {
@@ -615,20 +596,14 @@ h2 {
         justify-content: space-between;
     }
 
-    .match-row {
-        grid-template-columns: minmax(0, 1fr) minmax(260px, 36%);
-        align-items: center;
-    }
 }
 
 @media (max-width: 719px) {
-    .actions-inline,
-    .mode-switch {
+    .actions-inline {
         width: 100%;
     }
 
     .actions-inline button,
-    .mode-switch button,
     .submit-row button {
         width: 100%;
         justify-content: center;
@@ -636,5 +611,10 @@ h2 {
 
     .result-grid {
         grid-template-columns: 1fr;
+    }
+
+    .explanation-head {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
