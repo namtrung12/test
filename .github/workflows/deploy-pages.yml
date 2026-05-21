@@ -32,7 +32,7 @@ jobs:
           cp .nojekyll _site/
           cp assets/app.js _site/assets/
           cp assets/styles.css _site/assets/
-          cp data/question-bank.js _site/data/
+          cp data/question-bank.json _site/data/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

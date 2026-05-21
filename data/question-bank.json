@@ -1,0 +1,1310 @@
+{
+    "title": "Bộ test Vận động trị liệu",
+    "source": "5.VẬN ĐỘNG TRỊ LIỆU 2022 new.docx",
+    "lessons": {
+        "1": "Nguyên tắc vận động trị liệu",
+        "2": "Các tư thế căn bản và biến đổi trong vận động trị liệu",
+        "3": "Bài tập vận động thụ động",
+        "4": "Bài tập vận động có trợ giúp",
+        "5": "Bài tập vận động chủ động tự do",
+        "6": "Bài tập vận động có đề kháng",
+        "7": "Bài tập thư giãn",
+        "8": "Bài tập kéo dãn",
+        "9": "Bài tập di động khớp",
+        "10": "Bài tập thăng bằng",
+        "11": "Bài tập điều hợp vận động",
+        "12": "Bài tập vận động trên nệm",
+        "13": "Bài tập vận động tái rèn luyện đi",
+        "14": "Bài tập vận động cho trẻ sơ sinh và trẻ em",
+        "15": "Tập luyện di chuyển với nạng gậy và bài tập vận động theo nhóm"
+    },
+    "questions": [
+        {
+            "id": "b1-q1",
+            "lesson": 1,
+            "type": "mcq",
+            "question": "Vận động trị liệu được hiểu đúng nhất là gì?",
+            "options": {
+                "A": "Dùng vận động để đưa người bệnh trở lại hoàn toàn bình thường như trước.",
+                "B": "Dùng vận động để giúp người bệnh thực hiện chức năng một cách độc lập tối đa.",
+                "C": "Dùng vận động chủ yếu để người bệnh có thể đi lại được.",
+                "D": "Dùng vận động để chữa khỏi hoàn toàn bệnh hoặc thương tật."
+            },
+            "answer": "B",
+            "explanation": "Giáo trình nhấn mạnh mục tiêu phục hồi chức năng và tăng tính độc lập tối đa cho người bệnh."
+        },
+        {
+            "id": "b1-q2",
+            "lesson": 1,
+            "type": "mcq",
+            "question": "Để hoạch định chương trình điều trị vận động, cần dựa chủ yếu vào yếu tố nào?",
+            "options": {
+                "A": "Chỉ đo tầm vận động khớp và lực cơ.",
+                "B": "Chỉ đánh giá hô hấp, tim mạch và thần kinh.",
+                "C": "Bệnh sử, khám lượng giá chức năng và xác định nhu cầu điều trị.",
+                "D": "Chỉ quan sát tư thế và dáng đi của bệnh nhân."
+            },
+            "answer": "C",
+            "explanation": "Trong bài 1, quy trình được nêu là thu thập bệnh sử, khám lượng giá chức năng rồi xác định nhu cầu điều trị."
+        },
+        {
+            "id": "b1-q3",
+            "lesson": 1,
+            "type": "mcq",
+            "question": "Nguyên tắc cơ bản để tăng sức mạnh cơ là gì?",
+            "options": {
+                "A": "Lực cản tối đa, số lần lặp lại nhiều.",
+                "B": "Lực cản lớn phù hợp, số lần lặp lại ít.",
+                "C": "Lực cản nhỏ, số lần lặp lại nhiều.",
+                "D": "Lực cản nhỏ, số lần lặp lại ít."
+            },
+            "answer": "B",
+            "explanation": "Giáo trình nêu nguyên tắc tăng sức mạnh là dùng lực cản lớn và số lần lặp lại ít."
+        },
+        {
+            "id": "b2-q1",
+            "lesson": 2,
+            "type": "mcq",
+            "question": "Năm tư thế khởi đầu căn bản trong vận động trị liệu là gì?",
+            "options": {
+                "A": "Đứng, quỳ, ngồi, nằm, chân chống chân quỳ.",
+                "B": "Đứng, quỳ, ngồi xếp bằng, nằm, ngồi gập hông gập gối.",
+                "C": "Đứng, quỳ, ngồi, nằm ngửa, nằm sấp.",
+                "D": "Đứng, quỳ, nằm, ngồi và treo."
+            },
+            "answer": "D",
+            "explanation": "Phần lượng giá bài 2 liệt kê năm tư thế căn bản là đứng, quỳ, nằm, ngồi và treo."
+        },
+        {
+            "id": "b2-q2",
+            "lesson": 2,
+            "type": "mcq",
+            "question": "Trong tư thế đứng thẳng căn bản, thân và đầu đúng là:",
+            "options": {
+                "A": "Cột sống kéo dãn tối đa, mắt nhìn thẳng, vai xuôi xuống và ra sau.",
+                "B": "Cột sống kéo dãn tối đa, vai hơi nâng lên và ra sau.",
+                "C": "Cột sống kéo dãn tối đa, vai xuôi xuống và ra trước.",
+                "D": "Cột sống kéo dãn tối đa, vai hơi nâng lên và ra trước."
+            },
+            "answer": "A",
+            "explanation": "Mô tả chuẩn ở bài 2 là đầu kéo cao, mắt nhìn trước và hai vai xuôi xuống, ra sau."
+        },
+        {
+            "id": "b2-q3",
+            "lesson": 2,
+            "type": "mcq",
+            "question": "Tác dụng chính của tư thế quỳ căn bản là gì?",
+            "options": {
+                "A": "Chuẩn bị cho tư thế ngồi bằng cách kiểm soát chủ yếu phần dưới cơ thể.",
+                "B": "Chỉ tập riêng cho khớp gối để chuẩn bị đứng.",
+                "C": "Chuẩn bị cho tư thế đứng bằng cách kiểm soát riêng khớp hông.",
+                "D": "Tập điều khiển khớp gối, khớp hông và phần trên cơ thể để chuẩn bị đứng."
+            },
+            "answer": "D",
+            "explanation": "Giáo trình nêu rõ tư thế quỳ căn bản giúp chuẩn bị cho tư thế đứng."
+        },
+        {
+            "id": "b3-q1",
+            "lesson": 3,
+            "type": "mcq",
+            "question": "Bài tập vận động thụ động là bài tập:",
+            "options": {
+                "A": "Do người bệnh tự co cơ hoàn toàn.",
+                "B": "Được thực hiện bởi ngoại lực, không có co cơ chủ động ở phần vận động.",
+                "C": "Do co cơ với hỗ trợ của trọng lực.",
+                "D": "Do co cơ với hỗ trợ trực tiếp của kỹ thuật viên."
+            },
+            "answer": "B",
+            "explanation": "Định nghĩa bài 3 xác định vận động thụ động do ngoại lực tạo ra, không có co cơ chủ động."
+        },
+        {
+            "id": "b3-q2",
+            "lesson": 3,
+            "type": "mcq",
+            "question": "Nguyên tắc quan trọng khi thực hiện bài tập vận động thụ động là:",
+            "options": {
+                "A": "Tăng lực kéo mạnh cuối tầm để tăng ROM.",
+                "B": "Cầm nắm ở xa khớp để bệnh nhân ít đau.",
+                "C": "Thực hiện cử động nhẹ nhàng hết tầm vận động nhưng không gây đau.",
+                "D": "Tăng tốc độ cử động để khớp linh hoạt hơn."
+            },
+            "answer": "C",
+            "explanation": "Bài 3 yêu cầu cử động dịu dàng, đều, đúng tầm và không gây đau."
+        },
+        {
+            "id": "b3-q3",
+            "lesson": 3,
+            "type": "mcq",
+            "question": "Tác dụng đúng của bài tập vận động thụ động là:",
+            "options": {
+                "A": "Ngăn ngừa kết dính và duy trì tầm vận động khớp.",
+                "B": "Làm mạnh cơ là mục tiêu chính.",
+                "C": "Tăng sức bền cơ rõ rệt.",
+                "D": "Tăng độ căng của cơ để chuẩn bị đề kháng."
+            },
+            "answer": "A",
+            "explanation": "Tác dụng chính của vận động thụ động là duy trì ROM và hạn chế kết dính, co rút."
+        },
+        {
+            "id": "b4-q1",
+            "lesson": 4,
+            "type": "mcq",
+            "question": "Bài tập vận động có trợ giúp là bài tập mà:",
+            "options": {
+                "A": "Ngoại lực tạo ra toàn bộ cử động.",
+                "B": "Ngoại lực là lực chủ yếu làm cử động xảy ra.",
+                "C": "Ngoại lực chỉ dùng để làm mạnh cơ.",
+                "D": "Ngoại lực chỉ hỗ trợ để người bệnh hoàn tất cử động chủ động."
+            },
+            "answer": "D",
+            "explanation": "Bài 4 định nghĩa vận động có trợ giúp là vận động chủ động của người bệnh có thêm lực hỗ trợ để hoàn tất động tác."
+        },
+        {
+            "id": "b4-q2",
+            "lesson": 4,
+            "type": "mcq",
+            "question": "Khi tập vận động có trợ giúp, cử động phải được thực hiện như thế nào?",
+            "options": {
+                "A": "Càng nhanh càng tốt để tăng sức bền cơ.",
+                "B": "Càng chậm càng tốt để tăng sức mạnh cơ.",
+                "C": "Dịu dàng, đều đặn, chính xác qua suốt tầm vận động.",
+                "D": "Ngắt quãng để cơ thích nghi dần."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình yêu cầu bài tập trợ giúp vẫn phải giữ chất lượng vận động chính xác và đều."
+        },
+        {
+            "id": "b4-q3",
+            "lesson": 4,
+            "type": "true_false",
+            "question": "Đúng hay sai: Lực trợ giúp phải chỉ đủ mạnh để gia tăng hiệu năng co cơ, không làm thay cho cơ.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Đây là nguyên tắc cốt lõi của bài tập vận động có trợ giúp."
+        },
+        {
+            "id": "b5-q1",
+            "lesson": 5,
+            "type": "mcq",
+            "question": "Vận động chủ động tự do là bài tập mà lực tạo ra cử động:",
+            "options": {
+                "A": "Là lực của người bệnh với hỗ trợ của kỹ thuật viên.",
+                "B": "Là lực của người bệnh, không có cả trọng lực tác động.",
+                "C": "Hoàn toàn do trọng lực tạo ra.",
+                "D": "Là lực của người bệnh, không có ngoại lực hỗ trợ hay cản trở ngoài trọng lực."
+            },
+            "answer": "D",
+            "explanation": "Bài 5 xác định đây là vận động do chính người bệnh tạo ra, chỉ còn tác động tự nhiên của trọng lực."
+        },
+        {
+            "id": "b5-q2",
+            "lesson": 5,
+            "type": "mcq",
+            "question": "Trong một cử động chủ động tự do, nhóm cơ đối vận thường co theo kiểu nào?",
+            "options": {
+                "A": "Ly tâm",
+                "B": "Đồng tâm",
+                "C": "Hướng tâm",
+                "D": "Co cứng"
+            },
+            "answer": "A",
+            "explanation": "Cơ đối vận co ly tâm để điều hòa và kiểm soát cử động."
+        },
+        {
+            "id": "b5-q3",
+            "lesson": 5,
+            "type": "mcq",
+            "question": "Nếu xuất hiện cử động thay thế khi tập vận động chủ động tự do, điều đó thường có nghĩa là:",
+            "options": {
+                "A": "Bài tập quá dễ.",
+                "B": "Bệnh nhân đang phối hợp tốt hơn.",
+                "C": "Bài tập quá khó đối với lực cơ hiện có.",
+                "D": "Người điều trị không cần can thiệp."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình coi cử động thay thế là dấu hiệu bài tập vượt quá khả năng kiểm soát hiện tại."
+        },
+        {
+            "id": "b6-q1",
+            "lesson": 6,
+            "type": "mcq",
+            "question": "Bài tập vận động có đề kháng là:",
+            "options": {
+                "A": "Tập dùng ngoại lực để chống lại trọng lực.",
+                "B": "Tập để lực co cơ chống lại trọng lực.",
+                "C": "Bài tập chủ động trong đó lực co cơ bị kháng lại bởi ngoại lực.",
+                "D": "Bài tập để trọng lực hỗ trợ cơ chống lại ngoại lực."
+            },
+            "answer": "C",
+            "explanation": "Định nghĩa bài 6 nêu rõ sự co cơ động hay tĩnh bị kháng lại bởi một lực từ bên ngoài."
+        },
+        {
+            "id": "b6-q2",
+            "lesson": 6,
+            "type": "mcq",
+            "question": "Trong tập có đề kháng, nếu cử động xảy ra giật cục thì thường là do:",
+            "options": {
+                "A": "Bệnh nhân chưa đủ tập trung.",
+                "B": "Bệnh nhân đã tăng điều hợp cơ tốt hơn.",
+                "C": "Lực cản quá lớn.",
+                "D": "Cần tăng thêm tốc độ cử động."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình ghi rõ cử động giật cục là dấu hiệu lực kháng cản đang quá lớn."
+        },
+        {
+            "id": "b6-q3",
+            "lesson": 6,
+            "type": "mcq",
+            "question": "Muốn tăng sức mạnh cơ bằng bài tập có đề kháng, nên chọn cách tập nào?",
+            "options": {
+                "A": "Lực cản lớn, số lần lặp lại nhiều.",
+                "B": "Lực cản lớn, số lần lặp lại ít.",
+                "C": "Lực cản nhỏ, số lần lặp lại nhiều.",
+                "D": "Lực cản nhỏ, số lần lặp lại ít."
+            },
+            "answer": "B",
+            "explanation": "Bài 6 lặp lại nguyên tắc tăng sức mạnh là đề kháng lớn với ít lần lặp lại."
+        },
+        {
+            "id": "b7-q1",
+            "lesson": 7,
+            "type": "mcq",
+            "question": "Tư thế nào thuận lợi nhất cho thư giãn toàn thân theo giáo trình?",
+            "options": {
+                "A": "Đứng thẳng",
+                "B": "Ngồi ghế cao không tựa",
+                "C": "Nằm vì cơ thể được nâng đỡ hoàn toàn và chịu ít tác động của trọng lực",
+                "D": "Treo người"
+            },
+            "answer": "C",
+            "explanation": "Bài 7 giải thích tư thế nằm là tốt nhất cho thư giãn toàn thân vì giảm tác động của trọng lực."
+        },
+        {
+            "id": "b7-q2",
+            "lesson": 7,
+            "type": "mcq",
+            "question": "Phương pháp nào trong bài 7 được dùng chủ yếu để thư giãn toàn thân?",
+            "options": {
+                "A": "Phương pháp tương phản",
+                "B": "Phương pháp hỗ trợ",
+                "C": "Phương pháp ám thị",
+                "D": "Phương pháp vẫy đu đưa"
+            },
+            "answer": "C",
+            "explanation": "Giáo trình ghi trực tiếp tác dụng của phương pháp ám thị là để thư giãn toàn thân."
+        },
+        {
+            "id": "b7-q3",
+            "lesson": 7,
+            "type": "mcq",
+            "question": "Phát biểu nào đúng về hai kỹ thuật co-nghỉ và giữ-nghỉ?",
+            "options": {
+                "A": "Co-nghỉ dùng co cơ đẳng trường, giữ-nghỉ dùng co cơ đẳng trương.",
+                "B": "Co-nghỉ dùng co cơ đẳng trương, giữ-nghỉ dùng co cơ đẳng trường.",
+                "C": "Cả hai đều chỉ dùng co cơ đẳng trương.",
+                "D": "Cả hai đều chỉ dùng co cơ đẳng trường."
+            },
+            "answer": "B",
+            "explanation": "Bài 7 phân biệt rõ contract-relax là đẳng trương và hold-relax là đẳng trường."
+        },
+        {
+            "id": "b8-q1",
+            "lesson": 8,
+            "type": "mcq",
+            "question": "Kéo dãn được dùng để tăng ROM khi giới hạn tầm độ chủ yếu do:",
+            "options": {
+                "A": "Co cứng vì đau.",
+                "B": "Tăng trương lực do tổn thương thần kinh trung ương.",
+                "C": "Giảm hoặc mất tính mềm dẻo, tính đàn hồi của mô mềm.",
+                "D": "Thoái hóa khớp đơn thuần."
+            },
+            "answer": "C",
+            "explanation": "Định nghĩa bài 8 tập trung vào kéo dài cấu trúc mô mềm bị co ngắn do giảm tính mềm dẻo, đàn hồi."
+        },
+        {
+            "id": "b8-q2",
+            "lesson": 8,
+            "type": "mcq",
+            "question": "Trong quy trình kỹ thuật kéo dãn, trước khi bắt đầu có thể cần làm gì?",
+            "options": {
+                "A": "Kích thích cơ bằng vỗ mạnh vào bụng cơ.",
+                "B": "Đặt cơ ở vị trí co ngắn tối đa.",
+                "C": "Tăng lực kéo tối đa ngay từ đầu.",
+                "D": "Dùng kỹ thuật thư giãn trước khi kéo dãn nếu cần thiết."
+            },
+            "answer": "D",
+            "explanation": "Bài 8 khuyến nghị thư giãn trước khi kéo dãn khi cần để tăng hiệu quả và giảm khó chịu."
+        },
+        {
+            "id": "b8-q3",
+            "lesson": 8,
+            "type": "mcq",
+            "question": "Khi kéo dãn thụ động bằng tay trên cơ đi qua nhiều khớp, nên thực hiện theo trình tự nào?",
+            "options": {
+                "A": "Kéo qua từng khớp, khớp gần trước rồi khớp xa, sau đó mới kéo đồng thời.",
+                "B": "Kéo khớp xa trước vì dễ quan sát hơn.",
+                "C": "Kéo đồng thời tất cả các khớp ngay từ đầu.",
+                "D": "Chỉ kéo tại khớp đau nhất."
+            },
+            "answer": "A",
+            "explanation": "Phần quy trình kéo dãn nêu rõ: kéo dãn từng khớp, gần trước xa sau, rồi mới phối hợp đồng thời."
+        },
+        {
+            "id": "b9-q1",
+            "lesson": 9,
+            "type": "mcq",
+            "question": "Di động khớp là gì?",
+            "options": {
+                "A": "Các vận động thông thường bệnh nhân chủ động tự làm được.",
+                "B": "Các vận động phụ trợ của khớp mà bệnh nhân không tự thực hiện được.",
+                "C": "Chỉ là các động tác kéo giãn cơ quanh khớp.",
+                "D": "Bất kỳ cử động nào có dùng dụng cụ hỗ trợ."
+            },
+            "answer": "B",
+            "explanation": "Bài 9 định nghĩa di động khớp là các vận động phụ trợ cần cho chức năng khớp bình thường."
+        },
+        {
+            "id": "b9-q2",
+            "lesson": 9,
+            "type": "mcq",
+            "question": "Theo nguyên tắc lồi - lõm, nếu bề mặt xương vận động là lồi thì vận động trượt sẽ:",
+            "options": {
+                "A": "Xuất hiện ngược hướng với hướng xương đu đưa.",
+                "B": "Cùng hướng với hướng xương đu đưa.",
+                "C": "Luôn vuông góc với mặt phẳng điều trị.",
+                "D": "Không phụ thuộc hướng đu đưa."
+            },
+            "answer": "A",
+            "explanation": "Giáo trình nêu rõ: mặt lồi trượt ngược chiều với vận động đu đưa."
+        },
+        {
+            "id": "b9-q3",
+            "lesson": 9,
+            "type": "mcq",
+            "question": "Mức độ 1 của các bài tập trượt hoặc lắc khớp chủ yếu được dùng để:",
+            "options": {
+                "A": "Giảm đau và làm nới lỏng khớp.",
+                "B": "Bẻ dính khớp mạnh.",
+                "C": "Tăng lực cơ quanh khớp.",
+                "D": "Thay thế hoàn toàn bài tập ROM chủ động."
+            },
+            "answer": "A",
+            "explanation": "Ở bài 9, mức độ 1 được dùng đầu tiên cho mục tiêu giảm đau và nới lỏng khớp."
+        },
+        {
+            "id": "b10-q1",
+            "lesson": 10,
+            "type": "mcq",
+            "question": "Thăng bằng là:",
+            "options": {
+                "A": "Một tư thế cần nhiều hoạt động cơ để giữ ổn định.",
+                "B": "Sự cố gắng tự ý của con người để duy trì tư thế.",
+                "C": "Sự nhận thức có chủ ý để kiểm soát tư thế.",
+                "D": "Phản ứng của cơ thể nhằm duy trì tư thế."
+            },
+            "answer": "D",
+            "explanation": "Định nghĩa đầu bài 10 nêu thăng bằng là phản ứng của cơ thể để duy trì tư thế."
+        },
+        {
+            "id": "b10-q2",
+            "lesson": 10,
+            "type": "mcq",
+            "question": "Cách tái rèn luyện thăng bằng tốt nhất theo giáo trình là:",
+            "options": {
+                "A": "Cho bệnh nhân cố gắng tự ý duy trì thăng bằng càng nhiều càng tốt.",
+                "B": "Đặt bệnh nhân vào tình huống để họ phản ứng với kích thích giữ hoặc lấy lại thăng bằng.",
+                "C": "Chỉ tập nhận thức tư thế, không cần thay đổi môi trường.",
+                "D": "Tập co cơ mạnh để giữ tư thế đứng yên."
+            },
+            "answer": "B",
+            "explanation": "Bài 10 nhấn mạnh tập phản ứng với kích thích hơn là duy trì bằng ý thức đơn thuần."
+        },
+        {
+            "id": "b10-q3",
+            "lesson": 10,
+            "type": "mcq",
+            "question": "Trình tự tăng tiến thăng bằng tĩnh đúng là:",
+            "options": {
+                "A": "Nằm, quỳ bốn điểm, quỳ chống hai tay, quỳ trên gối, ngồi, ngồi trên gót, đứng, đi.",
+                "B": "Nằm, quỳ bốn điểm, quỳ chống hai tay, ngồi, ngồi trên gót, quỳ trên gối, đứng, đi.",
+                "C": "Nằm, quỳ chống hai tay, quỳ bốn điểm, quỳ trên gối, ngồi, ngồi trên gót, đứng, đi.",
+                "D": "Nằm sấp chống hai tay, quỳ chống hai tay, quỳ bốn điểm, quỳ trên gối, ngồi trên gót, ngồi, đứng, đi."
+            },
+            "answer": "D",
+            "explanation": "Bài 10 đưa ra chuỗi tăng tiến từ tư thế rất vững đến ít vững hơn theo phương án D."
+        },
+        {
+            "id": "b11-q1",
+            "lesson": 11,
+            "type": "mcq",
+            "question": "Một cử động được gọi là điều hợp khi nó được thực hiện:",
+            "options": {
+                "A": "Uyển chuyển, nhanh và mạnh.",
+                "B": "Mềm mại, uyển chuyển và chính xác.",
+                "C": "Nhanh, mạnh và chính xác.",
+                "D": "Nhịp nhàng, chính xác và nhanh."
+            },
+            "answer": "B",
+            "explanation": "Định nghĩa điều hợp trong bài 11 nhấn vào sự mềm mại, uyển chuyển và chính xác."
+        },
+        {
+            "id": "b11-q2",
+            "lesson": 11,
+            "type": "mcq",
+            "question": "Một cử động bị mất điều hợp chủ yếu là do:",
+            "options": {
+                "A": "Sự hoạt hóa hoặc ức chế đồng bộ của các nhóm cơ bị rối loạn.",
+                "B": "Trương lực cơ chủ vận luôn tăng đơn độc.",
+                "C": "Trương lực cơ đối vận luôn tăng đơn độc.",
+                "D": "Cơ đồng vận giảm trương lực trong mọi trường hợp."
+            },
+            "answer": "A",
+            "explanation": "Bản chất mất điều hợp là rối loạn phối hợp nhiều cơ trong một mẫu vận động."
+        },
+        {
+            "id": "b11-q3",
+            "lesson": 11,
+            "type": "mcq",
+            "question": "Mục đích của rèn luyện điều hợp nhiều cơ là gì?",
+            "options": {
+                "A": "Kiểm soát có ý thức riêng từng cơ chủ vận.",
+                "B": "Kiểm soát trương lực của cơ đối vận riêng lẻ.",
+                "C": "Giữ bệnh nhân tập trung vào một cử động duy nhất thật lâu.",
+                "D": "Phát triển khả năng tạo mẫu vận động tự động của nhiều cơ phối hợp."
+            },
+            "answer": "D",
+            "explanation": "Bài 11 xem điều hợp nhiều cơ là rèn luyện nội trình cử động tự động."
+        },
+        {
+            "id": "b12-q1",
+            "lesson": 12,
+            "type": "mcq",
+            "question": "Bài tập vận động trên nệm được thiết kế chủ yếu để:",
+            "options": {
+                "A": "Tăng sức mạnh cơ đơn thuần ở chi trên.",
+                "B": "Tăng tính độc lập của bệnh nhân dựa trên chuỗi phát triển bình thường.",
+                "C": "Thay thế hoàn toàn các bài tập đứng và đi.",
+                "D": "Chỉ sử dụng cho bệnh nhân liệt hai chân."
+            },
+            "answer": "B",
+            "explanation": "Bài 12 định nghĩa vận động trên nệm là các hoạt động chức năng nhằm tăng tính độc lập theo chuỗi phát triển bình thường."
+        },
+        {
+            "id": "b12-q2",
+            "lesson": 12,
+            "type": "mcq",
+            "question": "Nguyên tắc cơ bản đầu tiên khi thực hiện bài tập vận động trên nệm là:",
+            "options": {
+                "A": "Giúp bệnh nhân thành lập một vị thế và huấn luyện họ duy trì vị thế đó.",
+                "B": "Tăng lực đề kháng tối đa ngay từ đầu.",
+                "C": "Tập thật nhanh để tạo phản xạ tự động.",
+                "D": "Cho bệnh nhân bỏ qua các chuyển tư thế trung gian."
+            },
+            "answer": "A",
+            "explanation": "Phần nguyên tắc bài 12 bắt đầu bằng thiết lập và duy trì tư thế."
+        },
+        {
+            "id": "b12-q3",
+            "lesson": 12,
+            "type": "mcq",
+            "question": "Khi co cứng ngăn cản cử động bình thường trên nệm, người điều trị nên:",
+            "options": {
+                "A": "Tăng cố gắng chủ động của bệnh nhân để vượt co cứng.",
+                "B": "Chỉ chuyển sang bài tập đề kháng mạnh hơn.",
+                "C": "Dùng kỹ thuật ức chế và hướng dẫn bệnh nhân giảm sự cố gắng.",
+                "D": "Ngừng hẳn mọi cử động cho đến khi hết co cứng."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình lưu ý càng cố gắng có thể càng làm tăng trương lực cơ khi đang co cứng."
+        },
+        {
+            "id": "b13-q1",
+            "lesson": 13,
+            "type": "mcq",
+            "question": "Dáng đi được mô tả là chuỗi liên tục thành nhịp của các giai đoạn nào?",
+            "options": {
+                "A": "Đu đưa và tựa/chống của hai chân.",
+                "B": "Đạp và bật nhảy.",
+                "C": "Tăng tốc và giảm tốc.",
+                "D": "Gập gối và duỗi gối."
+            },
+            "answer": "A",
+            "explanation": "Phần mở đầu bài 13 mô tả gait cycle gồm swing và support."
+        },
+        {
+            "id": "b13-q2",
+            "lesson": 13,
+            "type": "mcq",
+            "question": "Nhóm cơ đẩy tham gia hoạt động đi bao gồm:",
+            "options": {
+                "A": "Cơ gập ngón chân, gập gan chân, duỗi gối và duỗi háng.",
+                "B": "Cơ duỗi ngón chân, gập mu chân, gập háng và gập gối.",
+                "C": "Chỉ gồm nhóm cơ bụng và cơ lưng.",
+                "D": "Chỉ gồm cơ dạng và cơ khép háng."
+            },
+            "answer": "A",
+            "explanation": "Bài 13 liệt kê nhóm cơ đẩy đúng theo phương án A."
+        },
+        {
+            "id": "b13-q3",
+            "lesson": 13,
+            "type": "mcq",
+            "question": "Khi đo chiều dài tay nắm của nạng nách, khuỷu tay bệnh nhân nên gập khoảng:",
+            "options": {
+                "A": "10°",
+                "B": "20°",
+                "C": "30°",
+                "D": "45°"
+            },
+            "answer": "C",
+            "explanation": "Phần đo nạng ở bài 13 ghi rõ khuỷu gập khoảng 30 độ khi xác định tay nắm."
+        },
+        {
+            "id": "b14-q1",
+            "lesson": 14,
+            "type": "mcq",
+            "question": "Khi tập chuỗi cử động chi dưới cho trẻ sơ sinh, hai chân trẻ cần ở tư thế:",
+            "options": {
+                "A": "Duỗi thẳng háng và gối, rồi dang khép chân.",
+                "B": "Duỗi thẳng háng, gập gối, rồi dang khép chân.",
+                "C": "Duỗi gối, háng gập nhẹ, rồi thực hiện dang khép chân.",
+                "D": "Duỗi thẳng háng rồi chỉ gập gối."
+            },
+            "answer": "C",
+            "explanation": "Nội dung bài 14 mô tả trẻ nhỏ không duỗi thẳng hoàn toàn háng, nên háng chỉ gập nhẹ."
+        },
+        {
+            "id": "b14-q2",
+            "lesson": 14,
+            "type": "mcq",
+            "question": "Kỹ thuật cầm nắm đúng khi tập chuỗi cử động chi trên cho trẻ sơ sinh là:",
+            "options": {
+                "A": "Ngón cái trên mu bàn tay trẻ, tay người điều trị cầm cẳng tay.",
+                "B": "Ngón cái trên lòng bàn tay trẻ, tay người điều trị nắm cẳng tay trẻ.",
+                "C": "Ngón cái trên lòng bàn tay trẻ, tay người điều trị nắm bàn tay trẻ.",
+                "D": "Ngón cái trên mu bàn tay trẻ, tay người điều trị nắm bàn tay trẻ."
+            },
+            "answer": "B",
+            "explanation": "Bài 14 ghi rõ ngón cái đặt trên lòng bàn tay trẻ và bàn tay người điều trị nắm lấy cẳng tay trẻ."
+        },
+        {
+            "id": "b14-q3",
+            "lesson": 14,
+            "type": "mcq",
+            "question": "Kỹ thuật treo trẻ bằng chân không nên sử dụng cho trẻ:",
+            "options": {
+                "A": "Đẻ non.",
+                "B": "Khối lượng cơ thể thấp.",
+                "C": "Khối lượng cơ thể nặng.",
+                "D": "Chậm phát triển vận động tinh thần."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình cảnh báo kỹ thuật này không nên dùng cho trẻ có khối lượng nặng."
+        },
+        {
+            "id": "b15-q1",
+            "lesson": 15,
+            "type": "mcq",
+            "question": "Tập nhóm là chương trình tập dành cho một nhóm bệnh nhân:",
+            "options": {
+                "A": "Có cùng mức độ và loại thương tổn, đủ an toàn để tập cùng nơi, cùng lúc với cùng bài tập.",
+                "B": "Có các loại thương tổn khác nhau nhưng tập cùng một bài tập.",
+                "C": "Có cùng thương tổn nhưng phải tập bài khác nhau.",
+                "D": "Có thương tổn khác nhau và bài tập cũng khác nhau."
+            },
+            "answer": "A",
+            "explanation": "Phần lượng giá bài 15 mô tả nhóm tập phải đủ tương đồng để bảo đảm an toàn và hiệu quả."
+        },
+        {
+            "id": "b15-q2",
+            "lesson": 15,
+            "type": "mcq",
+            "question": "Chương trình tập toàn thân được sắp xếp đúng theo thứ tự nào?",
+            "options": {
+                "A": "Tập thở, cổ và thân người, tứ chi, điều hợp thăng bằng, tập thở.",
+                "B": "Tập thở, tứ chi, cổ và thân người, điều hợp thăng bằng và tập chức năng, tập thở.",
+                "C": "Tập thở, điều hợp thăng bằng, cổ và thân người, tứ chi, tập thở.",
+                "D": "Tập thở, cổ và thân người, điều hợp thăng bằng, tứ chi, tập thở."
+            },
+            "answer": "B",
+            "explanation": "Bài 15 ghi rõ: thở, tứ chi, cổ và thân, điều hợp - thăng bằng - chức năng, rồi thở lại."
+        },
+        {
+            "id": "b15-q3",
+            "lesson": 15,
+            "type": "mcq",
+            "question": "Chương trình tập từng vùng nên được xếp theo thứ tự nào?",
+            "options": {
+                "A": "Tập mạnh cơ, tập di động khớp, điều hợp và thăng bằng, huấn luyện chức năng.",
+                "B": "Tập mạnh cơ, huấn luyện chức năng, tập di động khớp, điều hợp và thăng bằng.",
+                "C": "Tập di động khớp, tập mạnh cơ, điều hợp và thăng bằng, huấn luyện chức năng.",
+                "D": "Tập mạnh cơ, điều hợp và thăng bằng, tập di động khớp, huấn luyện chức năng."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình nêu trình tự bài tập từng vùng bắt đầu bằng di động khớp rồi mới đến mạnh cơ."
+        },
+        {
+            "id": "b1-q4",
+            "lesson": 1,
+            "type": "mcq",
+            "question": "Mục đích tổng quát của vận động trị liệu bao gồm:",
+            "options": {
+                "A": "Tăng sức mạnh, sức bền, điều hợp vận động và duy trì hoặc tăng ROM khớp.",
+                "B": "Chỉ tăng sức mạnh và sức bền cơ.",
+                "C": "Chỉ tăng tầm vận động khớp và mô mềm.",
+                "D": "Chỉ tăng điều hợp và kỹ năng vận động."
+            },
+            "answer": "A",
+            "explanation": "Bài 1 liệt kê mục đích rộng hơn một mục tiêu đơn lẻ, bao gồm sức mạnh, sức bền, điều hợp và ROM."
+        },
+        {
+            "id": "b2-q4",
+            "lesson": 2,
+            "type": "mcq",
+            "question": "Trong tư thế ngồi căn bản, vị trí chân đúng là:",
+            "options": {
+                "A": "Hông và gối gập 90°, hai gối sát nhau, hai gót chân sát nhau.",
+                "B": "Hông và gối gập 90°, hai gối hơi dang, hai gót chân sát nhau.",
+                "C": "Hông và gối gập 90°, hai gối hơi dang để hai đùi song song, hai gót chân thẳng hàng với gối.",
+                "D": "Hông và gối gập 90°, hai gối sát nhau, hai gót chân thẳng hàng với gối."
+            },
+            "answer": "C",
+            "explanation": "Phần lượng giá bài 2 mô tả tư thế ngồi căn bản với hai đùi song song và bàn chân đặt đúng trục."
+        },
+        {
+            "id": "b3-q4",
+            "lesson": 3,
+            "type": "true_false",
+            "question": "Đúng hay sai: Bài tập vận động thụ động không phải là bài tập chính để làm mạnh cơ.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Tác dụng chính của vận động thụ động là duy trì ROM, hạn chế dính và hỗ trợ tuần hoàn, không phải tăng sức mạnh cơ."
+        },
+        {
+            "id": "b4-q4",
+            "lesson": 4,
+            "type": "true_false",
+            "question": "Đúng hay sai: Lực trợ giúp trong bài tập có trợ giúp có thể do chính tay bệnh nhân tạo ra nếu đã được hướng dẫn đúng cách.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Bài 4 cho phép dùng tay của chính bệnh nhân hoặc dụng cụ khi người bệnh đã hiểu rõ phương pháp tập."
+        },
+        {
+            "id": "b5-q4",
+            "lesson": 5,
+            "type": "mcq",
+            "question": "Ưu điểm nổi bật của bài tập vận động chủ động tự do là gì?",
+            "options": {
+                "A": "Người bệnh có thể tự tập bất cứ lúc nào và ở đâu phù hợp.",
+                "B": "Người bệnh luôn cần dụng cụ đặc biệt khi tập.",
+                "C": "Người điều trị luôn kiểm soát được mọi nỗ lực của bệnh nhân.",
+                "D": "Người bệnh không bao giờ dùng mẫu cử động thay thế."
+            },
+            "answer": "A",
+            "explanation": "Bài 5 nêu rõ ưu điểm của bài tập này là tính chủ động, tiện thực hiện và dễ tự tập."
+        },
+        {
+            "id": "b6-q4",
+            "lesson": 6,
+            "type": "mcq",
+            "question": "Muốn tăng sức bền cơ bằng bài tập có đề kháng, nên chọn cách tập nào?",
+            "options": {
+                "A": "Lực cản lớn, số lần lặp lại nhiều.",
+                "B": "Lực cản lớn, số lần lặp lại ít.",
+                "C": "Lực cản nhỏ, số lần lặp lại nhiều.",
+                "D": "Lực cản nhỏ, số lần lặp lại ít."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình phân biệt rõ tăng sức bền cơ bằng lực đề kháng thấp với số lần lặp lại nhiều."
+        },
+        {
+            "id": "b7-q4",
+            "lesson": 7,
+            "type": "mcq",
+            "question": "Phương pháp nào được dùng để thư giãn cục bộ chi thể bằng các cử động lặp lại liên tục?",
+            "options": {
+                "A": "Phương pháp tương phản",
+                "B": "Phương pháp hỗ trợ",
+                "C": "Phương pháp vẫy đu đưa",
+                "D": "Phương pháp ám thị"
+            },
+            "answer": "C",
+            "explanation": "Bài 7 mô tả vẫy đu đưa là kỹ thuật thư giãn cục bộ cho tay hoặc chân."
+        },
+        {
+            "id": "b8-q4",
+            "lesson": 8,
+            "type": "mcq",
+            "question": "Mục đích quan trọng của kéo dãn là:",
+            "options": {
+                "A": "Tăng tính mềm dẻo của tổ chức phần mềm quanh khớp.",
+                "B": "Tăng lực của cơ yếu gây hạn chế vận động khớp.",
+                "C": "Sửa chữa biến dạng cấu trúc khớp.",
+                "D": "Thay thế hoàn toàn bài tập vận động chủ động."
+            },
+            "answer": "A",
+            "explanation": "Bài 8 nhấn mạnh kéo dãn nhằm kéo dài mô mềm co ngắn và cải thiện tầm vận động."
+        },
+        {
+            "id": "b9-q4",
+            "lesson": 9,
+            "type": "mcq",
+            "question": "Trường hợp nào là chống chỉ định tuyệt đối của bài tập di động khớp?",
+            "options": {
+                "A": "Khớp đau nhẹ do bất động lâu ngày.",
+                "B": "Giảm trượt khớp do hạn chế mô mềm.",
+                "C": "Nhiễm trùng khớp.",
+                "D": "Cần duy trì trượt khớp khi bệnh nhân bất động chức năng."
+            },
+            "answer": "C",
+            "explanation": "Bài 9 xếp nhiễm trùng khớp vào chống chỉ định tuyệt đối vì vận động có thể làm tổn thương nặng thêm."
+        },
+        {
+            "id": "b10-q4",
+            "lesson": 10,
+            "type": "mcq",
+            "question": "Thăng bằng tĩnh là:",
+            "options": {
+                "A": "Sự ổn định và kiểm soát đầu trong mọi tư thế.",
+                "B": "Sự cố định vững một phần chi thể trên các phần khác, dựa trên co cơ đẳng trường hoặc đồng co cơ.",
+                "C": "Sự phản ứng của cơ thể trước các lực làm mất thăng bằng.",
+                "D": "Sự điều chỉnh tư thế để lấy lại thăng bằng khi bị xô đẩy."
+            },
+            "answer": "B",
+            "explanation": "Bài 10 phân biệt thăng bằng tĩnh với động, trong đó tĩnh dựa trên ổn định nhờ co cơ đẳng trường hoặc đồng co cơ."
+        },
+        {
+            "id": "b11-q4",
+            "lesson": 11,
+            "type": "mcq",
+            "question": "Nguyên tắc quan trọng khi rèn luyện điều hợp nhiều cơ là:",
+            "options": {
+                "A": "Dùng lực đề kháng rất mạnh ngay từ đầu.",
+                "B": "Dùng lực đề kháng để thắng hẳn co cứng của cơ đối vận.",
+                "C": "Dùng lực đề kháng vừa đủ để duy trì tính chính xác của cử động.",
+                "D": "Cho bệnh nhân tập thật nhanh để tạo mẫu tự động sớm."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình yêu cầu giữ độ chính xác của cử động trong suốt quá trình rèn luyện điều hợp."
+        },
+        {
+            "id": "b12-q4",
+            "lesson": 12,
+            "type": "true_false",
+            "question": "Đúng hay sai: Nệm tập phải được giữ sạch và người tập cần bỏ giày dép khi lên nệm.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Bài 12 có lưu ý trực tiếp về vệ sinh và an toàn nệm tập."
+        },
+        {
+            "id": "b13-q4",
+            "lesson": 13,
+            "type": "mcq",
+            "question": "Khi bắt đầu tập đi trong thanh song song, dáng đi khởi đầu thường là:",
+            "options": {
+                "A": "Dáng đi đu qua.",
+                "B": "Dáng đi bắt chéo chân.",
+                "C": "Dáng đi kiễng gót.",
+                "D": "Dáng đi lùi ngay từ đầu."
+            },
+            "answer": "A",
+            "explanation": "Bài 13 ghi rõ tập đi trong thanh song song thường tăng tiến khởi đầu bằng dáng đi đu qua."
+        },
+        {
+            "id": "b14-q4",
+            "lesson": 14,
+            "type": "mcq",
+            "question": "Nguyên tắc phù hợp khi tập cho trẻ nhỏ 1 - 3 tuổi là:",
+            "options": {
+                "A": "Chọn bài tập phức tạp và lặp lại nhiều lần.",
+                "B": "Chọn bài tập khó để trẻ tập trung hơn.",
+                "C": "Chỉ dùng một bài tập cố định cho khỏi mất chú ý.",
+                "D": "Chọn bài tập đơn giản và thay đổi bài tập liên tục khi trẻ giảm chú ý."
+            },
+            "answer": "D",
+            "explanation": "Phần mô tả đầu bài 14 nhấn mạnh bài tập nên đơn giản, mang tính trò chơi và thay đổi khi trẻ giảm chú ý."
+        },
+        {
+            "id": "b15-q4",
+            "lesson": 15,
+            "type": "mcq",
+            "question": "Theo giáo trình, số lượng bệnh nhân trong một nhóm tập thường không quá:",
+            "options": {
+                "A": "3 - 5 người.",
+                "B": "8 - 12 người, tùy loại khiếm khuyết.",
+                "C": "15 - 20 người.",
+                "D": "Không giới hạn nếu phòng đủ rộng."
+            },
+            "answer": "B",
+            "explanation": "Bài 15 nêu quy mô nhóm tập nên giới hạn trong khoảng 8 đến 12 người."
+        },
+        {
+            "id": "b1-q5",
+            "lesson": 1,
+            "type": "true_false",
+            "question": "Đúng hay sai: Trước khi thiết lập chương trình vận động trị liệu, cần lượng giá khả năng còn lại của người bệnh.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Giáo trình đặt lượng giá bệnh nhân và xác định nhu cầu điều trị trước bước lập mục tiêu và chương trình điều trị."
+        },
+        {
+            "id": "b1-q6",
+            "lesson": 1,
+            "type": "true_false",
+            "question": "Đúng hay sai: Mục tiêu của vận động trị liệu là giúp người bệnh trở lại trạng thái bình thường như trước.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "B",
+            "explanation": "Mục tiêu đúng là giúp người bệnh đạt độc lập chức năng tối đa, không phải mặc định trở về hoàn toàn như trước khi bệnh."
+        },
+        {
+            "id": "b2-q5",
+            "lesson": 2,
+            "type": "mcq",
+            "question": "Tư thế của chân trong tư thế đứng thẳng căn bản theo phần lượng giá là:",
+            "options": {
+                "A": "Hai gót gần nhau, ngón cái tạo góc 45°, hông hơi gập và xoay trong.",
+                "B": "Hai gót gần nhau, ngón cái chạm nhau, hông duỗi thẳng và ở vị thế trung tính.",
+                "C": "Hai gót gần nhau, ngón cái tạo góc 45°, hông hơi gập và hơi xoay ngoài.",
+                "D": "Hai gót gần nhau, ngón cái chạm nhau, gối duỗi thẳng, hông duỗi thẳng và hơi xoay ngoài."
+            },
+            "answer": "D",
+            "explanation": "Đề lượng giá trong giáo trình đánh dấu phương án D cho câu hỏi này, nên bộ đề giữ đúng theo tài liệu gốc."
+        },
+        {
+            "id": "b2-q6",
+            "lesson": 2,
+            "type": "mcq",
+            "question": "Tác dụng của tư thế nằm căn bản là gì?",
+            "options": {
+                "A": "Thích hợp chủ yếu cho người bệnh già.",
+                "B": "Chỉ thích hợp cho người bệnh tim phổi.",
+                "C": "Dùng để kéo dãn cột sống khi bị biến dạng.",
+                "D": "Dùng cho các bài tập tay và chân."
+            },
+            "answer": "D",
+            "explanation": "Trong phần lượng giá bài 2, tác dụng của tư thế nằm căn bản được chọn là dùng cho các bài tập tay và chân."
+        },
+        {
+            "id": "b3-q5",
+            "lesson": 3,
+            "type": "true_false",
+            "question": "Đúng hay sai: Khi tập bài tập thụ động, những phần không cử động phải được nâng đỡ hoàn toàn.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Đây là nguyên tắc kỹ thuật quan trọng để cử động xảy ra đúng khớp cần tập và bảo đảm an toàn."
+        },
+        {
+            "id": "b3-q6",
+            "lesson": 3,
+            "type": "true_false",
+            "question": "Đúng hay sai: Khi tập bài tập thụ động, cuối tầm độ nên tạo áp lực mạnh để tăng ROM.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "B",
+            "explanation": "Giáo trình yêu cầu cử động nhẹ nhàng, không gây đau và không dùng lực ép mạnh cuối tầm trong bài tập thụ động thông thường."
+        },
+        {
+            "id": "b4-q5",
+            "lesson": 4,
+            "type": "mcq",
+            "question": "Bài tập vận động có trợ giúp được sử dụng khi:",
+            "options": {
+                "A": "Cơ không đủ mạnh để tạo ra cử động cho đến hết tầm vận động.",
+                "B": "Cơ không đủ mạnh để tạo ra nhưng đủ mạnh để điều khiển cử động cho đến hết tầm vận động.",
+                "C": "Cơ không đủ mạnh để tạo ra và điều khiển cử động cho đến hết tầm vận động.",
+                "D": "Cơ đủ mạnh để tạo ra nhưng không đủ mạnh để điều khiển cử động cho đến hết tầm vận động."
+            },
+            "answer": "C",
+            "explanation": "Giáo trình dùng bài tập có trợ giúp khi người bệnh chưa đủ lực vừa để tạo ra vừa để điều khiển hết biên độ vận động."
+        },
+        {
+            "id": "b4-q6",
+            "lesson": 4,
+            "type": "true_false",
+            "question": "Đúng hay sai: Trong bài tập vận động có trợ giúp, lực trợ giúp có thể do chính tay bệnh nhân tạo ra nếu đã được hướng dẫn rõ phương pháp.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Giáo trình nêu rõ lực trợ giúp có thể đến từ người khác, dụng cụ hoặc chính tay bệnh nhân khi họ hiểu đúng cách tập."
+        },
+        {
+            "id": "b5-q5",
+            "lesson": 5,
+            "type": "mcq",
+            "question": "Trong trình tự thực hiện cử động chủ động tự do, sau khi trở lại vị trí khởi đầu cần:",
+            "options": {
+                "A": "Nghỉ ngơi hoàn toàn",
+                "B": "Dừng lại đột ngột",
+                "C": "Thư giãn rồi bắt đầu lặp lại động tác",
+                "D": "Đong đưa chi thể"
+            },
+            "answer": "C",
+            "explanation": "Phần điền khuyết bài 5 xác định chu trình đúng là cử động hết tầm, trở lại vị trí khởi đầu, thư giãn rồi lặp lại."
+        },
+        {
+            "id": "b5-q6",
+            "lesson": 5,
+            "type": "mcq",
+            "question": "Nhược điểm điển hình của bài tập vận động chủ động tự do là:",
+            "options": {
+                "A": "Người bệnh luôn tập dưới sự hướng dẫn sát của người điều trị.",
+                "B": "Người bệnh cần dụng cụ đặc biệt khi tập.",
+                "C": "Khi lực cơ không cân bằng, người bệnh dễ dùng mẫu cử động thay thế nếu không được huấn luyện kỹ.",
+                "D": "Người điều trị luôn kiểm soát được nỗ lực vận động của người bệnh."
+            },
+            "answer": "C",
+            "explanation": "Đây là nhược điểm chính được nêu trong bài 5: người bệnh có thể tạo mẫu thay thế nếu cơ yếu hoặc kiểm soát chưa tốt."
+        },
+        {
+            "id": "b6-q5",
+            "lesson": 6,
+            "type": "mcq",
+            "question": "Mục đích đúng nhất của bài tập vận động có đề kháng là:",
+            "options": {
+                "A": "Tăng sức mạnh cơ, sức bền và công cơ.",
+                "B": "Tăng sức bền cơ, thể tích và sức mạnh cơ.",
+                "C": "Tăng sức mạnh cơ, sức bền cơ, công cơ và thể tích cơ.",
+                "D": "Tăng sức mạnh cơ, sức bền và điều hợp cử động."
+            },
+            "answer": "C",
+            "explanation": "Phần lượng giá bài 6 liệt kê đầy đủ bốn tác động chính là sức mạnh, sức bền, công cơ và thể tích cơ."
+        },
+        {
+            "id": "b6-q6",
+            "lesson": 6,
+            "type": "mcq",
+            "question": "Trong bài tập vận động có đề kháng, lực đề kháng bằng tay có đặc điểm nào đúng?",
+            "options": {
+                "A": "Điều chỉnh được theo từng giai đoạn của tầm vận động và đo được rất chính xác.",
+                "B": "Điều chỉnh được theo từng giai đoạn của tầm vận động nhưng không đo lường chính xác bằng dụng cụ.",
+                "C": "Không điều chỉnh được và cũng không thể đo lường.",
+                "D": "Không điều chỉnh được nhưng lại đo chính xác tuyệt đối."
+            },
+            "answer": "B",
+            "explanation": "Kháng trở bằng tay có ưu điểm là linh hoạt theo sức cơ từng đoạn vận động nhưng nhược điểm là khó lượng hóa chính xác."
+        },
+        {
+            "id": "b7-q5",
+            "lesson": 7,
+            "type": "true_false",
+            "question": "Đúng hay sai: Phương pháp tương phản trong thư giãn dựa trên cơ chế kích thích rồi ức chế, co mạnh xong sẽ thư giãn tương ứng.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Bài 7 mô tả rõ cơ chế sinh lý của phương pháp tương phản là co rồi thư giãn tương ứng của chính cơ đó."
+        },
+        {
+            "id": "b7-q6",
+            "lesson": 7,
+            "type": "true_false",
+            "question": "Đúng hay sai: Trong kỹ thuật giữ-nghỉ, nhóm cơ đối vận được yêu cầu co đẳng trường.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Giữ-nghỉ (hold-relax) là kỹ thuật dùng co cơ đẳng trường của nhóm đối vận để tạo thư giãn phản xạ."
+        },
+        {
+            "id": "b8-q5",
+            "lesson": 8,
+            "type": "true_false",
+            "question": "Đúng hay sai: Trước khi kéo dãn có thể sử dụng nhiệt để thư giãn cơ và hỗ trợ mô mềm dễ kéo dài hơn.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Bài 8 cho phép dùng nhiệt nóng trước kéo dãn để tăng khả năng duỗi dài và giảm nguy cơ chấn thương mô mềm."
+        },
+        {
+            "id": "b8-q6",
+            "lesson": 8,
+            "type": "true_false",
+            "question": "Đúng hay sai: Kéo dãn mạnh trong thời gian ngắn và lặp lại nhiều lần sẽ cho kết quả tốt nhất.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "B",
+            "explanation": "Giáo trình nhấn mạnh kéo dãn là quá trình chậm, từ từ, lực vừa đủ và duy trì hợp lý thay vì kéo mạnh ngắn hạn."
+        },
+        {
+            "id": "b9-q5",
+            "lesson": 9,
+            "type": "true_false",
+            "question": "Đúng hay sai: Để điều trị tình trạng đau kéo dài ở khớp, nên ưu tiên các bài tập lắc khớp.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Bài 9 nêu rõ với đau kéo dài nên dùng vận động lắc khớp để giảm đau và làm mềm khớp."
+        },
+        {
+            "id": "b9-q6",
+            "lesson": 9,
+            "type": "true_false",
+            "question": "Đúng hay sai: Trong bài tập trượt khớp, hướng vận động là song song với mặt phẳng điều trị.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Đây là nguyên tắc cơ học nền tảng của trượt khớp trong giáo trình bài 9."
+        },
+        {
+            "id": "b10-q5",
+            "lesson": 10,
+            "type": "mcq",
+            "question": "Thăng bằng động là:",
+            "options": {
+                "A": "Sự điều chỉnh trương lực để duy trì tư thế.",
+                "B": "Sự điều chỉnh tư thế để lấy lại thăng bằng.",
+                "C": "Sự phản ứng của cơ thể duy trì cân bằng trong các tư thế trước tác động các lực.",
+                "D": "Sự cố định vững một phần chi thể trên các phần khác."
+            },
+            "answer": "C",
+            "explanation": "Bài 10 định nghĩa thăng bằng động là phản ứng duy trì cân bằng khi có lực làm thay đổi tư thế cơ thể."
+        },
+        {
+            "id": "b10-q6",
+            "lesson": 10,
+            "type": "true_false",
+            "question": "Đúng hay sai: Duy trì thăng bằng phụ thuộc vào cảm thụ bản thể, ngoại cảm thụ và các giác quan đặc biệt như mắt và tiền đình.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Phần đại cương bài 10 nêu rõ sự kết hợp của các hệ cảm giác và hệ vận động trong duy trì thăng bằng."
+        },
+        {
+            "id": "b11-q5",
+            "lesson": 11,
+            "type": "true_false",
+            "question": "Đúng hay sai: Chương trình tập kiểm soát cơ chủ vận riêng lẻ nên thực hiện trước khi tập điều hợp nhiều cơ nếu bệnh nhân chưa phối hợp được nhiều cơ để tạo cử động.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Giáo trình ghi rõ phải dạy kiểm soát cơ riêng lẻ trước khi vào các mẫu điều hợp phức tạp nếu bệnh nhân chưa phối hợp được."
+        },
+        {
+            "id": "b11-q6",
+            "lesson": 11,
+            "type": "true_false",
+            "question": "Đúng hay sai: Khởi đầu bài tập điều hợp nhiều cơ, các cử động nên đơn giản và tốc độ đủ chậm để bệnh nhân còn kiểm soát có ý thức được động tác.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Điều hợp nhiều cơ phải tăng tiến từ dễ đến khó; lúc đầu cử động cần đơn giản và chậm để giữ độ chính xác."
+        },
+        {
+            "id": "b12-q5",
+            "lesson": 12,
+            "type": "true_false",
+            "question": "Đúng hay sai: Bài tập vận động trên nệm dựa trên chuỗi phát triển bình thường của con người như lăn, ngồi, quỳ, đứng và đi.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Đây là định nghĩa trực tiếp của bài tập vận động trên nệm trong giáo trình bài 12."
+        },
+        {
+            "id": "b12-q6",
+            "lesson": 12,
+            "type": "true_false",
+            "question": "Đúng hay sai: Nệm cao thuận tiện cho bệnh nhân ra vào nệm và tập tăng tiến các hoạt động thăng bằng ở mép nệm.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Bài 12 mô tả nệm cao giúp ra vào dễ hơn và hỗ trợ các hoạt động tăng tiến chức năng."
+        },
+        {
+            "id": "b13-q5",
+            "lesson": 13,
+            "type": "true_false",
+            "question": "Đúng hay sai: Sau thời gian nằm lâu, bệnh nhân cần được thích nghi dần với tư thế thẳng đứng trước khi tập đi.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Bài 13 nêu rõ đây là điều kiện quan trọng để chuẩn bị cho hoạt động đứng và đi an toàn."
+        },
+        {
+            "id": "b13-q6",
+            "lesson": 13,
+            "type": "true_false",
+            "question": "Đúng hay sai: Khi đo tổng chiều dài nạng nách ở tư thế đứng, đầu nạng nên cách hõm nách khoảng 5 cm hoặc 3 khoát ngón tay.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Khoảng cách này giúp tránh tỳ nạng trực tiếp vào hõm nách nhưng vẫn đủ cao để kiểm soát khi chịu lực."
+        },
+        {
+            "id": "b14-q5",
+            "lesson": 14,
+            "type": "mcq",
+            "question": "Nguyên tắc tập cho trẻ từ 4 - 8 tuổi theo phần lượng giá là:",
+            "options": {
+                "A": "Cha mẹ không nên có mặt khi thực hiện bài tập.",
+                "B": "Cha mẹ nên có mặt và tham gia vào bài tập cùng người điều trị.",
+                "C": "Cha mẹ nên thực hiện bài tập cho trẻ suốt ngày để đạt tiến bộ cần thiết.",
+                "D": "Cha mẹ không nên tham gia, chỉ để người điều trị hoạt động với trẻ."
+            },
+            "answer": "B",
+            "explanation": "Bài 14 nhấn mạnh vai trò phối hợp của cha mẹ trong giai đoạn tập cho trẻ nhỏ và trẻ đang thích nghi môi trường tập."
+        },
+        {
+            "id": "b14-q6",
+            "lesson": 14,
+            "type": "mcq",
+            "question": "Nguyên tắc tập cho trẻ lớn từ 8 - 12 tuổi là:",
+            "options": {
+                "A": "Không để khoảng trống thời gian giữa các bài tập.",
+                "B": "Cho trẻ khoảng thời gian vui chơi tự do giữa các bài tập.",
+                "C": "Tất cả bài tập đều phải thực hiện trong vị thế đứng.",
+                "D": "Người điều trị làm mẫu nhưng không tham gia vào các bài tập."
+            },
+            "answer": "B",
+            "explanation": "Giáo trình chọn hướng tiếp cận linh hoạt, có khoảng nghỉ vui chơi để giữ hứng thú và hợp tác của trẻ lớn."
+        },
+        {
+            "id": "b15-q5",
+            "lesson": 15,
+            "type": "true_false",
+            "question": "Đúng hay sai: Khi tập nhóm, bệnh nhân có thể xếp thành dãy hoặc vòng tròn.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "A",
+            "explanation": "Phần hướng dẫn tư thế và bố trí nhóm trong bài 15 cho phép cả hai cách xếp này tùy mục đích bài tập."
+        },
+        {
+            "id": "b15-q6",
+            "lesson": 15,
+            "type": "true_false",
+            "question": "Đúng hay sai: Bài tập nhóm được kết thúc khi bệnh nhân yêu cầu dừng.",
+            "options": {
+                "A": "Đúng",
+                "B": "Sai"
+            },
+            "answer": "B",
+            "explanation": "Bài 15 nêu rõ thời điểm kết thúc do người điều trị quyết định theo hiệu quả và an toàn, không phải chỉ khi bệnh nhân yêu cầu."
+        },
+        {
+            "id": "b7-match-1",
+            "lesson": 7,
+            "type": "match",
+            "question": "Ghép phương pháp thư giãn với mô tả phù hợp nhất.",
+            "pairs": [
+                {
+                    "left": "Phương pháp tương phản",
+                    "right": "Co mạnh rồi thả lỏng để tạo thư giãn tương ứng của chính cơ đó."
+                },
+                {
+                    "left": "Phương pháp hỗ trợ",
+                    "right": "Cho nhóm cơ hỗ trợ hoạt động để giảm dần sức căng của nhóm cơ duy trì tư thế căng cứng."
+                },
+                {
+                    "left": "Phương pháp ám thị",
+                    "right": "Thư giãn toàn thân bằng gợi ý, âm thanh hoặc hình ảnh lặp lại trong môi trường yên tĩnh."
+                },
+                {
+                    "left": "Phương pháp vẫy đu đưa",
+                    "right": "Thư giãn cục bộ chi thể bằng cử động lặp đi lặp lại của tay hoặc chân."
+                }
+            ],
+            "explanation": "Các phương pháp thư giãn trong bài 7 khác nhau chủ yếu ở cơ chế tác động: co-thả lỏng, hỗ trợ tư thế, ám thị toàn thân hoặc lặp cử động để giảm căng."
+        },
+        {
+            "id": "b9-match-1",
+            "lesson": 9,
+            "type": "match",
+            "question": "Ghép khái niệm di động khớp với đặc điểm đúng.",
+            "pairs": [
+                {
+                    "left": "Trượt khớp",
+                    "right": "Có hướng vận động song song với mặt phẳng điều trị."
+                },
+                {
+                    "left": "Kéo tách khớp",
+                    "right": "Có hướng vận động vuông góc với mặt phẳng điều trị để tách hai mặt khớp."
+                },
+                {
+                    "left": "Mặt khớp lồi vận động",
+                    "right": "Xuất hiện trượt theo hướng ngược với hướng xương đu đưa."
+                },
+                {
+                    "left": "Mặt khớp lõm vận động",
+                    "right": "Xuất hiện trượt cùng hướng với hướng xương đu đưa."
+                }
+            ],
+            "explanation": "Bài 9 dựa nhiều vào nguyên tắc cơ học khớp và quy tắc lồi - lõm để xác định hướng trượt hay kéo tách."
+        },
+        {
+            "id": "b13-match-1",
+            "lesson": 13,
+            "type": "match",
+            "question": "Ghép mốc đo nạng với ý nghĩa hoặc cách đo đúng.",
+            "pairs": [
+                {
+                    "left": "Tổng chiều dài nạng khi đứng",
+                    "right": "Đo từ dưới nách khoảng 5 cm đến điểm 2."
+                },
+                {
+                    "left": "Chiều dài tay nắm",
+                    "right": "Đo từ mặt lòng khớp bàn - đốt ngón út đến điểm 2 khi khuỷu gập khoảng 30°."
+                },
+                {
+                    "left": "Điểm 2",
+                    "right": "Giao điểm của vị trí 5 cm ngoài và 15 cm trước điểm 1."
+                },
+                {
+                    "left": "Điểm 3",
+                    "right": "Điểm từ giữa gót chân ra ngoài 15 cm khi đo nạng ở tư thế nằm."
+                }
+            ],
+            "explanation": "Đo nạng đúng giúp tránh chèn ép hõm nách và tạo tư thế chống đỡ an toàn cho người bệnh khi tập đi."
+        }
+    ]
+}
