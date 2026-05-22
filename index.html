@@ -1,1 +1,82 @@
 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ đề trắc nghiệm Vận động trị liệu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="progress-shell">
+        <div class="progress-copy">
+            <strong id="progress-text">Đang tải bộ đề...</strong>
+            <span id="progress-meta"></span>
+        </div>
+        <div class="progress-track">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+
+    <main class="shell">
+        <section class="hero">
+            <p class="eyebrow">Bộ đề tổng hợp duy nhất</p>
+            <h1>Trắc nghiệm Vận động trị liệu</h1>
+            <p class="hero-copy">
+                Chạm vào đáp án là biết đúng hay sai ngay, kèm đáp án đúng và giải thích ngay dưới câu đó.
+            </p>
+            <div class="hero-meta" id="hero-meta"></div>
+            <p class="hero-note" id="hero-note"></p>
+        </section>
+
+        <section class="panel" id="quiz-panel">
+            <div class="panel-head">
+                <div>
+                    <h2>Bộ đề đang làm</h2>
+                    <p id="quiz-summary"></p>
+                </div>
+                <button class="ghost" type="button" id="restart-top">Trộn bộ mới</button>
+            </div>
+
+            <form id="quiz-form" novalidate>
+                <div id="quiz-questions" class="question-stack"></div>
+            </form>
+        </section>
+
+        <section class="panel hidden" id="result-panel">
+            <div class="panel-head">
+                <div>
+                    <h2>Tổng kết bộ đề</h2>
+                    <p id="result-subtitle"></p>
+                </div>
+                <div class="actions-inline">
+                    <button class="primary" type="button" id="restart-bottom">Làm lại đề</button>
+                </div>
+            </div>
+
+            <div class="score-card">
+                <div class="score-main">
+                    <strong id="score-value">0/0</strong>
+                    <span id="score-percent">0%</span>
+                </div>
+                <p id="score-note"></p>
+            </div>
+
+            <div class="result-grid">
+                <div class="summary-pill" id="correct-count">0 câu đúng</div>
+                <div class="summary-pill" id="wrong-count">0 câu sai</div>
+                <div class="summary-pill" id="blank-count">0 câu bỏ trống</div>
+            </div>
+        </section>
+    </main>
+
+    <noscript>
+        <div class="noscript">Trang này cần JavaScript để tải dữ liệu JSON, trộn đề và chấm điểm.</div>
+    </noscript>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
