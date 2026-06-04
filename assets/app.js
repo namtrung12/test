@@ -7,6 +7,7 @@
         bank: null,
         quiz: [],
         answers: {},
+        activeMode: 'quiz',
         answerLessonFilter: 'all',
         answerSearch: '',
         result: null,
@@ -18,6 +19,8 @@
         progressBar: document.getElementById('progress-bar'),
         heroMeta: document.getElementById('hero-meta'),
         heroNote: document.getElementById('hero-note'),
+        modeQuiz: document.getElementById('mode-quiz'),
+        modeAnswers: document.getElementById('mode-answers'),
         quizPanel: document.getElementById('quiz-panel'),
         quizSummary: document.getElementById('quiz-summary'),
         restartTop: document.getElementById('restart-top'),
@@ -45,6 +48,12 @@
         elements.restartTop.addEventListener('click', restartQuiz);
         elements.restartBottom.addEventListener('click', restartQuiz);
         elements.quizForm.addEventListener('change', handleAnswerChange);
+        elements.modeQuiz.addEventListener('click', function () {
+            setActiveMode('quiz');
+        });
+        elements.modeAnswers.addEventListener('click', function () {
+            setActiveMode('answers');
+        });
         elements.answerLessonFilter.addEventListener('change', handleAnswerFilterChange);
         elements.answerSearch.addEventListener('input', handleAnswerSearchInput);
     }
@@ -71,6 +80,7 @@
             renderHeroMeta();
             renderAnswerTools();
             renderAnswerLibrary();
+            updateModePanels();
 
             if (!restoreSession()) {
                 buildFreshQuiz();
@@ -161,6 +171,7 @@
         elements.progressBar.style.width = '12%';
         elements.heroNote.textContent = 'Đang khởi tạo bộ đề.';
         elements.quizSummary.textContent = 'Đang nạp dữ liệu câu hỏi.';
+        updateModePanels();
         elements.answerSummary.textContent = 'Đang nạp đáp án.';
         elements.answerLibrary.innerHTML = [
             '<article class="answer-card loading-card">',
@@ -174,6 +185,32 @@
             '<p>Dữ liệu được đọc từ file <code>data/question-bank.json</code>.</p>',
             '</article>',
         ].join('');
+    }
+
+    function setActiveMode(mode) {
+        state.activeMode = mode;
+        updateModePanels();
+
+        const targetPanel = mode === 'answers' ? document.getElementById('answer-panel') : elements.quizPanel;
+        targetPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function updateModePanels() {
+        const isQuizMode = state.activeMode === 'quiz';
+
+        elements.modeQuiz.classList.toggle('active', isQuizMode);
+        elements.modeAnswers.classList.toggle('active', !isQuizMode);
+        elements.modeQuiz.setAttribute('aria-pressed', isQuizMode ? 'true' : 'false');
+        elements.modeAnswers.setAttribute('aria-pressed', isQuizMode ? 'false' : 'true');
+        elements.quizPanel.classList.toggle('hidden', !isQuizMode);
+
+        document.getElementById('answer-panel').classList.toggle('hidden', isQuizMode);
+
+        if (isQuizMode) {
+            updateResultPanel();
+        } else {
+            elements.resultPanel.classList.add('hidden');
+        }
     }
 
     function renderLoadError(error) {
@@ -590,6 +627,11 @@
 
         if (!result || !result.isFinished) {
             resetResultPanel();
+            return;
+        }
+
+        if (state.activeMode !== 'quiz') {
+            elements.resultPanel.classList.add('hidden');
             return;
         }
 

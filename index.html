@@ -32,6 +32,15 @@
             <p class="hero-note" id="hero-note"></p>
         </section>
 
+        <nav class="mode-tabs" aria-label="Chọn mục học">
+            <button class="mode-tab active" type="button" id="mode-quiz" aria-controls="quiz-panel" aria-pressed="true">
+                Bộ đề để làm
+            </button>
+            <button class="mode-tab" type="button" id="mode-answers" aria-controls="answer-panel" aria-pressed="false">
+                Đáp án sẵn để đọc
+            </button>
+        </nav>
+
         <section class="panel" id="quiz-panel">
             <div class="panel-head">
                 <div>
@@ -46,7 +55,7 @@
             </form>
         </section>
 
-        <section class="panel" id="answer-panel">
+        <section class="panel hidden" id="answer-panel">
             <div class="panel-head">
                 <div>
                     <h2>Sẵn đáp án cho bé</h2>
