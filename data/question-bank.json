@@ -1,23 +1,935 @@
 {
-    "title": "Bộ test Vận động trị liệu",
-    "source": "5.VẬN ĐỘNG TRỊ LIỆU 2022 new.docx",
-    "lessons": {
-        "1": "Nguyên tắc vận động trị liệu",
-        "2": "Các tư thế căn bản và biến đổi trong vận động trị liệu",
-        "3": "Bài tập vận động thụ động",
-        "4": "Bài tập vận động có trợ giúp",
-        "5": "Bài tập vận động chủ động tự do",
-        "6": "Bài tập vận động có đề kháng",
-        "7": "Bài tập thư giãn",
-        "8": "Bài tập kéo dãn",
-        "9": "Bài tập di động khớp",
-        "10": "Bài tập thăng bằng",
-        "11": "Bài tập điều hợp vận động",
-        "12": "Bài tập vận động trên nệm",
-        "13": "Bài tập vận động tái rèn luyện đi",
-        "14": "Bài tập vận động cho trẻ sơ sinh và trẻ em",
-        "15": "Tập luyện di chuyển với nạng gậy và bài tập vận động theo nhóm"
+  "title": "Bộ 70 Câu Hỏi Ôn Tập Vật Lý Trị Liệu - PHCN",
+  "source": "Bo_70_Cau_Hoi_PHCN.docx; giáo trình phương thức vltl 30.11.25.docx",
+  "lessons": {
+    "1": "Vật lý trị liệu - Phục hồi chức năng"
+  },
+  "questions": [
+    {
+      "id": "phcn-q1",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Tác dụng cơ học của siêu âm bao gồm:",
+      "options": {
+        "A": "Làm nóng mô",
+        "B": "Tăng tốc phản ứng hóa học trực tiếp",
+        "C": "Tác động vi tế lên màng tế bào, làm lỏng mô kết dính",
+        "D": "Giảm áp lực trong mạch máu"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Tác động vi tế lên màng tế bào, làm lỏng mô kết dính\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
     },
-    "questions": []
+    {
+      "id": "phcn-q2",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Modulation trong điện xung trị liệu giúp … , ngăn cơ thể quen với kích thích và tăng hiệu quả điều trị.",
+      "options": {
+        "A": "pha trộn biên độ, tần số hoặc dạng xung",
+        "B": "giảm cường độ dòng điện theo thời gian",
+        "C": "thay đổi vị trí điện cực"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"pha trộn biên độ, tần số hoặc dạng xung\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q3",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Điện xung trị liệu có thể sử dụng để giảm đau, tăng sức cơ hoặc điều hòa trường lực cơ. Trong các tình trạng sau đây, đâu là chỉ định phù hợp để áp dụng điện xung nhằm điều hòa trường lực cơ?",
+      "options": {
+        "A": "Cơ yếu do bất động sau gãy xương",
+        "B": "Phù nề phần mềm sau mổ",
+        "C": "Co cứng cơ sau tai biến hoặc tăng trường lực cơ do đau mạn tính",
+        "D": "Đau đầu do căng cơ"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Co cứng cơ sau tai biến hoặc tăng trường lực cơ do đau mạn tính\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q4",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Tai biến hoại tử trên da vùng điều trị xảy ra do quá trình biến dưỡng giảm dưới tác dụng nhiệt.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Sai\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q5",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Trong các loại xung điện phổ biến, xung lưỡng pha (biphasic pulse) có đặc điểm nào nổi bật và an toàn hơn xung đơn pha?",
+      "options": {
+        "A": "Dòng điện đi theo một chiều duy nhất, tích điện mô mạnh",
+        "B": "Dòng đảo chiều trong cùng một xung, không gây tích điện mô, an toàn cho điều trị dài",
+        "C": "Tạo co cơ mạnh nhất nhưng nguy cơ bỏng cao",
+        "D": "Chỉ dùng cho giảm đau, không kích thích cơ"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Dòng đảo chiều trong cùng một xung, không gây tích điện mô, an toàn cho điều trị dài\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q6",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Đèn hơi thuỷ ngân cần được bảo quản cẩn thận, giữ sạch, khô, tránh bụi, đèn được làm việc liên tục, không được .......... vì tay dính mồ hôi.",
+      "options": {
+        "A": "Chạm vào vật rắn",
+        "B": "Sờ vào ống thuỷ tinh",
+        "C": "Sờ tay vào bóng đèn"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Sờ tay vào bóng đèn\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q7",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khác với sóng điện từ là những sóng ngang. Sóng âm là loại sóng truyền theo..., có nghĩa là cùng hướng với phương truyền sóng.",
+      "options": {
+        "A": "chiều dọc",
+        "B": "chiều ngang",
+        "C": "xoắn"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"chiều dọc\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q8",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Táo bón là một tai biến có thể xảy ra khi điều trị hồng ngoại do tăng cường hoạt động của tuyến mồ hôi làm gia tăng sự thải bỏ chất cặn bã.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q9",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Sóng siêu âm được truyền qua môi trường để hay khó tùy thuộc vào khả năng và tốc độ biến dạng của vật chất. Tính chất này được gọi là ....",
+      "options": {
+        "A": "âm trở",
+        "B": "tần số",
+        "C": "bước sóng"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"âm trở\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q10",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Bệnh nhân nữ 55 tuổi có tiền sử suy tim độ III, đang được điều trị vật lý trị liệu. Kỹ thuật viên đề xuất sử dụng tia hồng ngoại để làm mềm mô sẹo vỏ đỉnh ở vai. Phân tích về mặt y khoa, việc điều trị hồng ngoại có an toàn cho bệnh nhân này không?",
+      "options": {
+        "A": "An toàn, vì hồng ngoại chỉ tác dụng cục bộ làm mềm sẹo.",
+        "B": "An toàn, miễn là điều trị dưới 10 phút.",
+        "C": "Không an toàn, nhưng chỉ cần che kín vùng ngực là được.",
+        "D": "Không an toàn, vì suy tim độ III, IV là chống chỉ định của điều trị tia hồng ngoại."
+      },
+      "answer": "D",
+      "explanation": "Đáp án đúng là \"Không an toàn, vì suy tim độ III, IV là chống chỉ định của điều trị tia hồng ngoại.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q11",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Bệnh nhân bị quá liều tia tử ngoại gây đỏ da, nóng, đau. Biện pháp xử trí nào sau đây được khuyến nghị trong tài liệu để làm giảm phản ứng đỏ da do tử ngoại?",
+      "options": {
+        "A": "Đắp gạc lạnh.",
+        "B": "Dùng đèn hồng ngoại chiếu vào vùng da vừa điều trị tử ngoại.",
+        "C": "Bôi dung dịch Chloramphenicol 1%.",
+        "D": "Cho bệnh nhân nghỉ ngơi và theo dõi tại chỗ."
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Dùng đèn hồng ngoại chiếu vào vùng da vừa điều trị tử ngoại.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q12",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Xung tam giác (triangular pulse) là một trong các dạng xung được sử dụng trong điện xung trị liệu. Đặc điểm nào đúng nhất về xung tam giác?",
+      "options": {
+        "A": "Biên độ tăng giảm tức thì, tạo co cơ mạnh nhất",
+        "B": "Dòng điện đi theo một chiều duy nhất, tích điện mô mạnh",
+        "C": "Biên độ tăng từ từ, giảm nguy cơ đau buốt, dùng cho người bệnh nhạy cảm và vùng mô mềm tổn thương",
+        "D": "Chỉ dùng để giảm đau cấp, không dùng kích thích cơ"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Biên độ tăng từ từ, giảm nguy cơ đau buốt, dùng cho người bệnh nhạy cảm và vùng mô mềm tổn thương\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q13",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khi sóng siêu âm đi từ môi trường có vận tốc truyền sóng cao sang thấp, hiện tượng xảy ra là:",
+      "options": {
+        "A": "Hấp thụ hết năng lượng",
+        "B": "Khúc xạ sóng",
+        "C": "Phản xạ sóng",
+        "D": "Tăng tốc truyền sóng"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Khúc xạ sóng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q14",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Muốn chiếu lại vùng da đã có phản ứng đỏ da độ II trong lần chiếu trước, kỹ thuật viên cần tăng liều lượng thêm 70% so với liều do da lần trước để đạt cùng một mức đỏ da.",
+      "options": {
+        "A": "Đúng.",
+        "B": "Sai."
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q15",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Điều gì cần làm sau khi rút đầu biến năng ra khỏi da và lau khô?",
+      "options": {
+        "A": "Tiếp tục ở cường độ cao hơn để làm mềm sẹo.",
+        "B": "Dừng lại và không thực hiện thêm thao tác nào.",
+        "C": "Rửa vùng da bằng nước lạnh.",
+        "D": "Bôi kem dưỡng lên vùng da vừa điều trị."
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Dừng lại và không thực hiện thêm thao tác nào.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q16",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Trong điều trị bằng nhiệt trị liệu, nhiệt lạnh gây tác dụng sinh lý chính là………",
+      "options": {
+        "A": "Giãn mạch",
+        "B": "Tăng chuyển hóa",
+        "C": "Co mạch, giảm sưng"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Co mạch, giảm sưng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q17",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Phương pháp điều trị trên mặt nước sử dụng ___ để hướng bó sóng siêu âm lên phần cơ thể được nâng đỡ.",
+      "options": {
+        "A": "tấm phản xạ",
+        "B": "đầu biến năng trực tiếp",
+        "C": "tấm chiếu xạ"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"tấm phản xạ\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q18",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Trong kích thích cơ bằng xung Russian, các cụm xung phát thành từng đợt (Burst Mode) giúp ..., thích hợp tăng sức mạnh cơ sau mô hoặc phục hồi thể thao.",
+      "options": {
+        "A": "tăng tính bền vững của cơ",
+        "B": "kích hoạt cơ mạnh và nhanh hơn faradic",
+        "C": "giảm đau mạn tính"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"kích hoạt cơ mạnh và nhanh hơn faradic\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q19",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Các tia hồng ngoại ngắn xuyên sâu khoảng…………tác dụng dưới các mao mạch, các mô, các tổ chức dưới da và đầu dây thần kinh.",
+      "options": {
+        "A": "1 - 2mm",
+        "B": "5 - 10mm",
+        "C": "15 - 20mm"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"5 - 10mm\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q20",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Bệnh nhân nam, 58 tuổi, tiền sử bị đái tháo đường type 2, đến khám phục hồi chức năng vì đau và cứng khớp cổ tay trái sau gãy xương đã lành sẹo 6 tuần. Trên khám: vùng da quanh khớp cổ tay có sẹo lõm, không trợt loét, cảm giác còn nhưng giảm nhẹ so bên lành. Bệnh nhân yêu cầu phương pháp giữ nhiệt để giảm đau và mềm sẹo. Bạn dự định sử dụng paraffin tại chỗ. Hành động phù hợp nhất là:",
+      "options": {
+        "A": "Tiến hành đắp paraffin bằng phương pháp nhúng sau khi kiểm tra vùng da, giải thích với bệnh nhân và chú ý thời gian đắp 20–30 phút; quan sát kỹ cảm giác da trong quá trình điều trị.",
+        "B": "Không dùng paraffin vì bệnh nhân có đái tháo đường (chống chỉ định tuyệt đối).",
+        "C": "Dùng paraffin chảy lỏng đắp trực tiếp lên vết sẹo để đạt hiệu quả nhanh.",
+        "D": "Chỉ dùng paraffin dạng túi, ngâm nước 100ºC để nhanh đạt nhiệt độ rồi đắp."
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Tiến hành đắp paraffin bằng phương pháp nhúng sau khi kiểm tra vùng da, giải thích với bệnh nhân và chú ý thời gian đắp 20–30 phút; quan sát kỹ cảm giác da trong quá trình điều trị.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q21",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Vai trò của Hoạt động trị liệu (HĐTL) là điều trị về thể chất và tinh thần thông qua các hoạt động có lựa chọn để giúp người bệnh đạt được chức năng tối đa trong cuộc sống hằng ngày.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q22",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Sự giãn mạch ngoại vi do tia hồng ngoại gây ra hiện tượng đỏ da xung huyết, do tác dụng trực tiếp của nhiệt.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q23",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Để tránh bỏng khi dùng siêu âm, điều nào sau đây đúng nhất?",
+      "options": {
+        "A": "Di chuyển đầu biến năng liên tục và tránh các mấu xương",
+        "B": "Tăng cường độ tối đa để đạt nhiệt nhanh",
+        "C": "Giữ đầu biến năng cố định tại một vị trí",
+        "D": "Chỉ sử dụng cường độ mức tối thiểu"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Di chuyển đầu biến năng liên tục và tránh các mấu xương\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q24",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Bệnh nhân A đến phòng Phục hồi chức năng và được chỉ định điều trị bằng tia tử ngoại. Sau khi chiếu tia khoảng 12 giờ, bệnh nhân xuất hiện các triệu chứng đau mắt, nhức mắt, cộm mi mắt và chảy nước mắt. KTV nhận định bệnh nhân đang gặp tai biến viêm kết mạc do tử ngoại. Biện pháp xử trí tức thời nào sau đây là phù hợp nhất theo tài liệu y khoa?",
+      "options": {
+        "A": "Dùng đèn hồng ngoại chiếu vào vùng mắt.",
+        "B": "Sử dụng thuốc nhỏ mắt có chứa corticoid.",
+        "C": "Rửa mắt bằng axit Boric và nhỏ dịch Cloramphenicol 1%.",
+        "D": "Chỉ cần đeo kính râm và theo dõi."
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Rửa mắt bằng axit Boric và nhỏ dịch Cloramphenicol 1%.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q25",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Đặc điểm nào sau đây mô tả đúng về sự xâm nhập của tia hồng ngoại?",
+      "options": {
+        "A": "Tất cả các tia hồng ngoại đều xuyên sâu như nhau.",
+        "B": "Các bức xạ hồng ngoại có bước sóng dài hơn sẽ xuyên sâu hơn.",
+        "C": "Các nguồn phát quang chỉ có tác dụng đối với lớp da nông.",
+        "D": "Các bức xạ hồng ngoại có bước sóng ngắn hơn sẽ xuyên sâu hơn."
+      },
+      "answer": "D",
+      "explanation": "Đáp án đúng là \"Các bức xạ hồng ngoại có bước sóng ngắn hơn sẽ xuyên sâu hơn.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q26",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Loại đèn từ ngoại nào sau đây được cấu tạo bằng ống có vỏ thạch anh nóng chảy để không cản tia từ ngoại phát ra?",
+      "options": {
+        "A": "Đèn huỳnh quang.",
+        "B": "Đèn hơi thuỷ ngân.",
+        "C": "Đèn hồ quang.",
+        "D": "Đèn hồng ngoại."
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Đèn hơi thuỷ ngân.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q27",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khoảng cách mà cường độ siêu âm giảm còn một nửa gọi là bán trị.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q28",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Một trong những mục đích của điều trị bằng nhiệt nóng là gây giãn mạch, tăng tuần hoàn và giảm đau (Ví dụ: Chườm nóng).",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q29",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Tác dụng chính của phương thức điều trị bằng siêu âm trị liệu trên người bệnh là:",
+      "options": {
+        "A": "Giảm đau tức thì bằng cảm giác lạnh",
+        "B": "Hiệu ứng nhiệt sâu giúp giảm viêm, kích thích lành mô",
+        "C": "Tăng tuần hoàn, tăng dinh dưỡng",
+        "D": "Giảm phù bằng co mạch mạnh"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Hiệu ứng nhiệt sâu giúp giảm viêm, kích thích lành mô\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q30",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khi điều trị bằng tia hồng ngoại, nguồn hồng ngoại nhân tạo nào được tạo ra bởi một bóng đèn cháy sáng và có thể được trang bị tấm kính lọc để cản tia tử ngoại?",
+      "options": {
+        "A": "Nguồn không phát quang",
+        "B": "Nguồn phát quang",
+        "C": "Nguồn tự nhiên (Mặt trời)",
+        "D": "Chai nước nóng"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Nguồn phát quang\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q31",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Điều trị bằng từ trường trị liệu có tác dụng chống viêm, giảm phù nề, và kích thích phát triển can xương.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q32",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Sóng siêu âm chỉ lan truyền theo chiều ngang giống như sóng điện từ.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Sai\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q33",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Một trong những tai biến thường gặp khi sử dụng điện xung trị liệu là ..., thường xảy ra khi điện cực dán không đúng hoặc tấm vật đệm khô.",
+      "options": {
+        "A": "bỏng da nhẹ",
+        "B": "tê, mỏi đầu chi",
+        "C": "chuột rút chi thể"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"bỏng da nhẹ\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q34",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Phương pháp nào sau đây giúp tăng hiệu quả truyền sóng siêu âm khi da gồ ghề hoặc nhạy cảm?",
+      "options": {
+        "A": "Tăng cường độ tới da",
+        "B": "Chỉ thoa dầu, không di chuyển đầu biến năng",
+        "C": "Nhúng đầu trị liệu trong nước hoặc dùng tấm phản xạ trên mặt nước",
+        "D": "Giữ đầu biến năng cố định trên da"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Nhúng đầu trị liệu trong nước hoặc dùng tấm phản xạ trên mặt nước\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q35",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khi điều trị bằng siêu âm, vị trí tập trung cường độ năng lượng lớn nhất là:",
+      "options": {
+        "A": "Trên bề mặt da",
+        "B": "Tâm điểm của biến năng",
+        "C": "Đầu biến năng",
+        "D": "Xung quanh mô mỡ"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Tâm điểm của biến năng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q36",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Liều lượng điều trị tia hồng ngoại cho viêm mạn tính là bao nhiêu?",
+      "options": {
+        "A": "10 - 15 phút/lần, ngày điều trị 2 lần",
+        "B": "15 - 30 phút/lần, ngày điều trị 1 lần",
+        "C": "Trên 30 phút/lần, ngày điều trị 1 lần",
+        "D": "10 phút/lần, ngày điều trị 3 lần"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"15 - 30 phút/lần, ngày điều trị 1 lần\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q37",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Điện xung trị liệu tác động lên tuần hoàn, mô mềm và hệ thần kinh trung ương. Trong các tác dụng dưới đây, tác dụng nào là đúng nhất khi dùng điện xung với tần số thấp trong TENS?",
+      "options": {
+        "A": "Tăng co cơ mạnh và phù nề",
+        "B": "Ức chế toàn bộ phản xạ thần kinh trung ương",
+        "C": "Kích hoạt hệ nội tiết giảm đau (endorphin), giảm căng thẳng và cải thiện giấc ngủ trong đau mạn",
+        "D": "Gây rối loạn tuần hoàn và giảm lưu lượng máu"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Kích hoạt hệ nội tiết giảm đau (endorphin), giảm căng thẳng và cải thiện giấc ngủ trong đau mạn\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q38",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Trong điều trị bằng tia tử ngoại, tia tử ngoại chiếm tỷ lệ bao nhiêu phần trăm trong quang phổ tạo ra từ đèn hơi thủy ngân, với bước sóng từ 390 nm đến 189 nm?",
+      "options": {
+        "A": "52%",
+        "B": "20%",
+        "C": "40%",
+        "D": "28%"
+      },
+      "answer": "D",
+      "explanation": "Đáp án đúng là \"28%\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q39",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Trong máy phát siêu âm, sóng siêu âm được tạo ra nhờ:",
+      "options": {
+        "A": "Dòng điện một chiều",
+        "B": "Dao động cơ học trực tiếp của đầu biến năng",
+        "C": "Hiệu ứng áp lực điện của tinh thể thạch anh",
+        "D": "Nhiệt tỏa từ mạch điện"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Hiệu ứng áp lực điện của tinh thể thạch anh\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q40",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khi điều trị bằng tia từ ngoại, liều dò da độ II gấp .......... lần liều dò da độ I.",
+      "options": {
+        "A": "1,5 lần",
+        "B": "2,5 lần",
+        "C": "5 lần"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"2,5 lần\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q41",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Bệnh nhân nam 65 tuổi, sau chấn thương phần mềm vùng vai, đau cấp, sưng nhẹ. Kỹ thuật viên PHCN cần lựa chọn phương pháp vật lý trị liệu phù hợp giai đoạn cấp. Phương pháp nào sau đây được ưu tiên?",
+      "options": {
+        "A": "Chườm nóng để tăng tuần hoàn",
+        "B": "Chườm lạnh để giảm đau và giảm sưng"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Chườm lạnh để giảm đau và giảm sưng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q42",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khi điều trị bằng tia từ ngoại, tác dụng sinh học của tia từ ngoại chủ yếu do ............ gây ra.",
+      "options": {
+        "A": "Tác dụng cơ học",
+        "B": "Tác dụng hoá học",
+        "C": "Tác dụng điện tử"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Tác dụng hoá học\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q43",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Tác dụng giảm đau của siêu âm chỉ dựa vào tác dụng nhiệt.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Sai\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q44",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Trong phương pháp điều trị bằng thủy trị liệu, yếu tố vật lý quan trọng giúp giảm tải trọng lên khớp là………để phục hồi chức năng",
+      "options": {
+        "A": "Áp suất khí quyển",
+        "B": "Sức nổi",
+        "C": "Áp suất thủy tĩnh"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Sức nổi\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q45",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Đối với tác dụng giảm đau, điều trị tia từ ngoại độ .......... có tác dụng giảm đau tốt nhất.",
+      "options": {
+        "A": "I",
+        "B": "II",
+        "C": "III"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"III\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q46",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Sóng siêu âm có thể tạo nhiệt trong mô cơ thể chủ yếu nhờ cơ chế nào?",
+      "options": {
+        "A": "Khúc xạ sóng",
+        "B": "Phân kỳ sóng",
+        "C": "Hấp thụ năng lượng của sóng siêu âm",
+        "D": "Phản xạ sóng"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Hấp thụ năng lượng của sóng siêu âm\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q47",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Phản ứng đỏ da do chiếu tia tử ngoại sẽ xuất hiện ngay lập tức sau khi chiếu.",
+      "options": {
+        "A": "Đúng.",
+        "B": "Sai."
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Sai.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q48",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Xung giao thoa (IFC) được đánh giá cao trong điều trị đau do … nhờ khả năng thâm nhập sâu và giảm kích ứng da.",
+      "options": {
+        "A": "cơ bề mặt nhỏ",
+        "B": "các khớp lớn và cơ sâu",
+        "C": "mạch máu vùng chi trên"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"các khớp lớn và cơ sâu\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q49",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Điện xung trị liệu tác động lên cơ – thần kinh – mô mềm chủ yếu thông qua cơ chế … , giúp tạo co cơ thụ động, giảm đau và tăng tuần hoàn tại vùng điều trị.",
+      "options": {
+        "A": "kích thích màng tế bào theo các xung ngắn xen kẽ khoảng nghỉ",
+        "B": "kích thích điện cực liên tục không đổi",
+        "C": "tác dụng nhiệt từ dòng điện cao áp"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"kích thích màng tế bào theo các xung ngắn xen kẽ khoảng nghỉ\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q50",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Điện xung trị liệu có nhiều tần số khác nhau phục vụ các mục đích khác nhau. Khi mục tiêu là giảm đau cấp nhanh, tần số nào được sử dụng phổ biến nhất trong TENS?",
+      "options": {
+        "A": "2–10 Hz",
+        "B": "20–60 Hz",
+        "C": "80–150 Hz",
+        "D": ">150 Hz"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"80–150 Hz\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q51",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Tia hồng ngoại có thể gây đục thủy tinh thể, do đó cần phải bảo vệ mắt khi sử dụng hồng ngoại.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q52",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khi điều trị bằng tia hồng ngoại, các tia hồng ngoại xuyên thấu qua da khoảng………… và hấp thu trên mặt da.",
+      "options": {
+        "A": "5 - 10mm",
+        "B": "2mm",
+        "C": "15 - 20mm"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"2mm\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q53",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Theo định nghĩa, liều sinh lý tử ngoại là thời gian tối thiểu để gây nên đỏ da tối thiểu, có bỏ rỗ nét của một nguồn tử ngoại để xa bao nhiêu cm chiếu thẳng góc vào da?",
+      "options": {
+        "A": "30 cm.",
+        "B": "50 cm.",
+        "C": "70 cm.",
+        "D": "100 cm."
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"50 cm.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q54",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khi muốn giảm đau cấp, tần số dòng điện xung TENS thường được đặt trong khoảng … để kích thích sợi Aβ ức chế dẫn truyền đau theo lý thuyết Gate Control.",
+      "options": {
+        "A": "2–10 Hz",
+        "B": "20–60 Hz",
+        "C": "80–150 Hz"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"80–150 Hz\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q55",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Điện xung trị liệu là phương pháp sử dụng dòng điện không liên tục tạo thành các xung ngắn với chu kỳ “phát xung – nghỉ”. Trong các đặc điểm sau, đặc điểm nào đúng nhất về tác dụng trực tiếp của điện xung lên cơ và thần kinh?",
+      "options": {
+        "A": "Kích thích dây thần kinh vận động để tạo co cơ thụ động và giúp tăng sức cơ",
+        "B": "Làm tê liệt hoàn toàn cơ và giảm trương lực cơ lâu dài",
+        "C": "Chỉ tác động lên da, không ảnh hưởng đến cơ hoặc thần kinh",
+        "D": "Gây đau dữ dội và viêm mô mềm nếu sử dụng đúng kỹ thuật"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Kích thích dây thần kinh vận động để tạo co cơ thụ động và giúp tăng sức cơ\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q56",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Kỹ thuật điều trị bằng paraffin dùng trong điều trị là loại………….., trung tính, màu trắng, không độc.",
+      "options": {
+        "A": "Tinh khiết",
+        "B": "Tinh chế",
+        "C": "Tinh lỏng"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Tinh khiết\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q57",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Để tạo ra siêu âm có tần số cố định, người ta dùng một dụng cụ cung cấp năng lượng dao động ghép với ...",
+      "options": {
+        "A": "bộ cộng hưởng",
+        "B": "mạch khuếch đại",
+        "C": "tấm kim loại"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"bộ cộng hưởng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q58",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Một bệnh nhân nhi được chỉ định điều trị bằng tia tử ngoại cho tình trạng còi xương. Kỹ thuật viên (KTV) do liều sinh lý và bắt đầu liệu trình. Trong quá trình điều trị, KTV cần lưu ý thực hiện biện pháp nào sau đây để đảm bảo an toàn cho mắt của bệnh nhân?",
+      "options": {
+        "A": "Che kín vùng khung chiếu tử ngoại.",
+        "B": "Đặt đèn chiếu thẳng góc vào vùng điều trị.",
+        "C": "Đeo kính bảo vệ mắt/kính râm.",
+        "D": "Vệ sinh đóng đèn bằng cồn khử mỡ hằng ngày."
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Đeo kính bảo vệ mắt/kính râm.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q59",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Siêu âm không được sử dụng cho các mô nào sau đây?",
+      "options": {
+        "A": "Cơ, gân cơ",
+        "B": "Bao khớp",
+        "C": "Não, mắt.",
+        "D": "Sẹo mô mềm"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Não, mắt.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q60",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Sử dụng siêu âm trên xương có thể tạo nhiệt ở màng ngoài xương.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q61",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Nếu đã biết liều đỏ da độ I, Liều đỏ da độ IV sẽ gấp 10 lần liều đỏ da độ I.",
+      "options": {
+        "A": "Đúng.",
+        "B": "Sai."
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Đúng.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q62",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Tác dụng cơ học của siêu âm là một sự ... hay xoa bóp nội tế bào, giúp màng tế bào trở nên dễ thấm hơn.",
+      "options": {
+        "A": "xoa bóp vi tế",
+        "B": "ép nén",
+        "C": "cắt mô"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"xoa bóp vi tế\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q63",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Liều lượng siêu âm an toàn tối đa trong điều trị hiếm gặp có thể đạt:",
+      "options": {
+        "A": "1 Watt/cm²",
+        "B": "2,5 Watt/cm²",
+        "C": "3 Watt/cm²",
+        "D": "1,5 Watt/cm²"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"3 Watt/cm²\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q64",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Sóng ngắn là loại sóng điện từ như thế nào?",
+      "options": {
+        "A": "Có bước sóng ngắn, thường được sử dụng trong truyền thông vô tuyến.",
+        "B": "Có bước sóng dài, thường được sử dụng trong truyền hình.",
+        "C": "Có bước sóng trung bình, thường được sử dụng trong y học.",
+        "D": "Có bước sóng rất dài, thường được sử dụng trong radar."
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"Có bước sóng ngắn, thường được sử dụng trong truyền thông vô tuyến.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q65",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khi điều trị hồng ngoại diện rộng kéo dài, máu được sưởi nóng sẽ kích thích trung khu nào hoạt động?",
+      "options": {
+        "A": "Trung khu hô hấp",
+        "B": "Trung khu vận động",
+        "C": "Trung khu điều hòa thân nhiệt",
+        "D": "Trung khu thần kinh thực vật"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Trung khu điều hòa thân nhiệt\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q66",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Trong điện xung trị liệu, dạng xung … thường được dùng để kích thích cơ mắt phân bố thần kinh với độ rộng xung lớn, nhằm tạo co cơ rõ.",
+      "options": {
+        "A": "xung lưỡng pha (biphasic pulse)",
+        "B": "xung đơn pha (monophasic pulse)",
+        "C": "xung tam giác (triangular pulse)"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"xung tam giác (triangular pulse)\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q67",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Trong điều trị bằng điện trị liệu, cực âm được ứng dụng để làm giảm ngưỡng kích thích vận động, do đó điều trị cho những người bệnh ……… là hiệu quả nhất",
+      "options": {
+        "A": "Liệt cứng",
+        "B": "Rối loạn cảm giác",
+        "C": "Liệt mềm"
+      },
+      "answer": "C",
+      "explanation": "Đáp án đúng là \"Liệt mềm\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q68",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Khoảng cách mà cường độ giảm đi còn một nửa được gọi là ... và phụ thuộc vào cấu trúc của môi trường và tần số của sóng siêu âm.",
+      "options": {
+        "A": "bán trị",
+        "B": "biên độ",
+        "C": "chu kỳ"
+      },
+      "answer": "A",
+      "explanation": "Đáp án đúng là \"bán trị\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q69",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Một số bệnh nhân không được điều trị bằng điện xung do nguy cơ tai biến nghiêm trọng. Trong số các trường hợp sau, đâu là chống chỉ định tuyệt đối khi sử dụng điện xung trị liệu?",
+      "options": {
+        "A": "Da bị trầy xước nhỏ",
+        "B": "Người bệnh có máy tạo nhịp tim (pacemaker)",
+        "C": "Người bệnh nhạy cảm với dòng điện nhưng không có bệnh lý tim",
+        "D": "Vùng cơ sau chấn thương nhỏ"
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Người bệnh có máy tạo nhịp tim (pacemaker)\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "phcn-q70",
+      "lesson": 1,
+      "type": "mcq",
+      "question": "Bệnh nhân nam 45 tuổi, bị chấn thương cơ gót (viêm gân Achilles) đã 2 tuần, đau khi đi lại, sưng ít. Bác sĩ chỉ định điều trị vật lý bằng siêu âm để giảm đau và thúc đẩy lành mô. Trước lúc điều trị, bệnh nhân được thử cảm giác nóng lạnh bình thường. Kỹ thuật viên dùng đầu biến năng tiếp xúc trực tiếp với da, thoa một lớp gel dẫn, bắt đầu điều trị với cường độ 1,5 W/cm2, giữ đầu biến năng yên tại một điểm trong 6 phút. Sau 2 phút, bệnh nhân than cảm giác nóng chói và đau tăng nhiều. Trong tình huống này, bạn là kỹ thuật viên điều trị cho bệnh nhân sẽ xử lý như thế nào?",
+      "options": {
+        "A": "Tiếp tục điều trị vì nóng là bình thường và sẽ giúp mô hồi phục nhanh hơn.",
+        "B": "Ngừng ngay điều trị, giảm cường độ hoặc chuyển sang xung (pulse) và đảm bảo di chuyển đầu biến năng; đồng thời kiểm tra vị trí xương khu trú (mấu xương) và hỏi thêm cảm giác bệnh nhân.",
+        "C": "Tăng thêm thời gian điều trị ở cùng cường độ để vượt qua giai đoạn đau ban đầu."
+      },
+      "answer": "B",
+      "explanation": "Đáp án đúng là \"Ngừng ngay điều trị, giảm cường độ hoặc chuyển sang xung (pulse) và đảm bảo di chuyển đầu biến năng; đồng thời kiểm tra vị trí xương khu trú (mấu xương) và hỏi thêm cảm giác bệnh nhân.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    }
+  ]
 }
-
