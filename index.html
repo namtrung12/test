@@ -46,6 +46,30 @@
             </form>
         </section>
 
+        <section class="panel" id="answer-panel">
+            <div class="panel-head">
+                <div>
+                    <h2>Sẵn đáp án cho bé</h2>
+                    <p id="answer-summary">Đang nạp đáp án.</p>
+                </div>
+            </div>
+
+            <div class="answer-tools">
+                <label class="field-control">
+                    <span>Bài</span>
+                    <select id="answer-lesson-filter">
+                        <option value="all">Tất cả bài</option>
+                    </select>
+                </label>
+                <label class="field-control">
+                    <span>Tìm</span>
+                    <input id="answer-search" type="search" placeholder="Nhập từ khóa">
+                </label>
+            </div>
+
+            <div id="answer-library" class="answer-library"></div>
+        </section>
+
         <section class="panel hidden" id="result-panel">
             <div class="panel-head">
                 <div>

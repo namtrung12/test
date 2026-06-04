@@ -7,6 +7,8 @@
         bank: null,
         quiz: [],
         answers: {},
+        answerLessonFilter: 'all',
+        answerSearch: '',
         result: null,
     };
 
@@ -21,6 +23,10 @@
         restartTop: document.getElementById('restart-top'),
         quizForm: document.getElementById('quiz-form'),
         quizQuestions: document.getElementById('quiz-questions'),
+        answerSummary: document.getElementById('answer-summary'),
+        answerLessonFilter: document.getElementById('answer-lesson-filter'),
+        answerSearch: document.getElementById('answer-search'),
+        answerLibrary: document.getElementById('answer-library'),
         resultPanel: document.getElementById('result-panel'),
         resultSubtitle: document.getElementById('result-subtitle'),
         restartBottom: document.getElementById('restart-bottom'),
@@ -39,6 +45,8 @@
         elements.restartTop.addEventListener('click', restartQuiz);
         elements.restartBottom.addEventListener('click', restartQuiz);
         elements.quizForm.addEventListener('change', handleAnswerChange);
+        elements.answerLessonFilter.addEventListener('change', handleAnswerFilterChange);
+        elements.answerSearch.addEventListener('input', handleAnswerSearchInput);
     }
 
     async function loadBank() {
@@ -61,6 +69,8 @@
             state.bank = normalizeBank(bank);
 
             renderHeroMeta();
+            renderAnswerTools();
+            renderAnswerLibrary();
 
             if (!restoreSession()) {
                 buildFreshQuiz();
@@ -151,6 +161,13 @@
         elements.progressBar.style.width = '12%';
         elements.heroNote.textContent = 'Đang khởi tạo bộ đề.';
         elements.quizSummary.textContent = 'Đang nạp dữ liệu câu hỏi.';
+        elements.answerSummary.textContent = 'Đang nạp đáp án.';
+        elements.answerLibrary.innerHTML = [
+            '<article class="answer-card loading-card">',
+            '<h3>Đang tải đáp án</h3>',
+            '<p>Đáp án được đọc cùng ngân hàng câu hỏi.</p>',
+            '</article>',
+        ].join('');
         elements.quizQuestions.innerHTML = [
             '<article class="question-card loading-card">',
             '<h3>Đang tải bộ đề trắc nghiệm</h3>',
@@ -167,6 +184,13 @@
         elements.progressBar.classList.add('is-error');
         elements.heroNote.textContent = 'Web này cần file JSON tĩnh để chạy trên GitHub Pages.';
         elements.quizSummary.textContent = 'Tải dữ liệu thất bại.';
+        elements.answerSummary.textContent = 'Không tải được đáp án.';
+        elements.answerLibrary.innerHTML = [
+            '<article class="answer-card blank">',
+            '<h3>Không có đáp án để hiển thị</h3>',
+            '<p>Cần tải được <code>' + escapeHtml(DATA_URL) + '</code> trước.</p>',
+            '</article>',
+        ].join('');
         elements.quizQuestions.innerHTML = [
             '<article class="question-card incorrect">',
             '<h3>Lỗi tải dữ liệu</h3>',
@@ -256,6 +280,121 @@
         }
 
         elements.quizSummary.textContent = 'Bộ đề có ' + state.quiz.length + ' câu. Chạm đáp án để xem kết quả ngay trên từng câu.';
+    }
+
+    function renderAnswerTools() {
+        const lessons = state.bank && state.bank.lessons ? state.bank.lessons : {};
+        const lessonOptions = Object.keys(lessons).sort(function (left, right) {
+            return Number(left) - Number(right);
+        }).map(function (lessonKey) {
+            return [
+                '<option value="' + escapeHtml(lessonKey) + '">',
+                escapeHtml(lessons[lessonKey]),
+                '</option>',
+            ].join('');
+        });
+
+        elements.answerLessonFilter.innerHTML = [
+            '<option value="all">Tất cả bài</option>',
+            lessonOptions.join(''),
+        ].join('');
+    }
+
+    function renderAnswerLibrary() {
+        if (!state.bank || !state.bank.questions.length) {
+            elements.answerSummary.textContent = 'Ngân hàng câu hỏi đang để trống.';
+            elements.answerLibrary.innerHTML = [
+                '<article class="answer-card blank">',
+                '<h3>Chưa có đáp án</h3>',
+                '<p>Thêm câu hỏi vào ngân hàng để mục này tự hiển thị đáp án.</p>',
+                '</article>',
+            ].join('');
+            return;
+        }
+
+        const filteredQuestions = getFilteredAnswerQuestions();
+
+        elements.answerSummary.textContent = 'Đang hiển thị ' + filteredQuestions.length + '/' + state.bank.questions.length + ' câu có đáp án đúng và giải thích.';
+
+        if (!filteredQuestions.length) {
+            elements.answerLibrary.innerHTML = [
+                '<article class="answer-card blank">',
+                '<h3>Không tìm thấy câu phù hợp</h3>',
+                '<p>Thử đổi bài hoặc nhập từ khóa ngắn hơn.</p>',
+                '</article>',
+            ].join('');
+            return;
+        }
+
+        elements.answerLibrary.innerHTML = filteredQuestions.map(function (question, index) {
+            return renderAnswerCard(question, index);
+        }).join('');
+    }
+
+    function getFilteredAnswerQuestions() {
+        const searchNeedle = normalizeSearchText(state.answerSearch);
+
+        return state.bank.questions.filter(function (question) {
+            if (state.answerLessonFilter !== 'all' && String(question.lesson) !== state.answerLessonFilter) {
+                return false;
+            }
+
+            if (!searchNeedle) {
+                return true;
+            }
+
+            return normalizeSearchText([
+                question.question,
+                question.lessonTitle,
+                question.explanation,
+                question.optionPool.map(function (option) {
+                    return option.text;
+                }).join(' '),
+            ].join(' ')).indexOf(searchNeedle) !== -1;
+        });
+    }
+
+    function renderAnswerCard(question, index) {
+        const correctOption = question.optionPool.find(function (option) {
+            return option.value === question.correctValue;
+        });
+        const correctText = correctOption ? correctOption.text : question.correctValue;
+
+        return [
+            '<article class="answer-card">',
+            '<div class="question-head">',
+            '<div class="question-badges">',
+            '<span class="badge badge-index">Đáp án ' + (index + 1) + '</span>',
+            '<span class="badge">Bài ' + escapeHtml(String(question.lesson)) + '</span>',
+            '</div>',
+            '<span class="answer-state good">Có đáp án</span>',
+            '</div>',
+            '<h3 class="question-title">' + escapeHtml(question.question) + '</h3>',
+            '<p class="question-lesson">' + escapeHtml(question.lessonTitle) + '</p>',
+            '<div class="answer-correct">',
+            '<strong>Đáp án đúng:</strong> ' + escapeHtml(correctText),
+            '</div>',
+            renderAnswerOptions(question),
+            '<p class="answer-explanation"><strong>Giải thích:</strong> ' + escapeHtml(question.explanation) + '</p>',
+            '</article>',
+        ].join('');
+    }
+
+    function renderAnswerOptions(question) {
+        return [
+            '<div class="answer-options">',
+            question.optionPool.map(function (option) {
+                const isCorrect = option.value === question.correctValue;
+
+                return [
+                    '<div class="answer-option' + (isCorrect ? ' is-correct' : '') + '">',
+                    '<span>' + escapeHtml(option.value) + '</span>',
+                    '<p>' + escapeHtml(option.text) + '</p>',
+                    '</div>',
+                ].join('');
+            }).join(''),
+            '</div>',
+        ].join('');
     }
 
     function renderQuiz() {
@@ -376,6 +515,16 @@
         updateProgress();
         updateResultPanel();
         saveSession();
+    }
+
+    function handleAnswerFilterChange(event) {
+        state.answerLessonFilter = event.target.value;
+        renderAnswerLibrary();
+    }
+
+    function handleAnswerSearchInput(event) {
+        state.answerSearch = event.target.value;
+        renderAnswerLibrary();
     }
 
     function rerenderQuestion(questionId) {
@@ -630,6 +779,14 @@
 
     function formatNumber(value) {
         return Number(value).toFixed(1).replace(/\.0$/, '');
+    }
+
+    function normalizeSearchText(value) {
+        return String(value || '')
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/đ/g, 'd');
     }
 
     function shuffleArray(items) {
