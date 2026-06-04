@@ -1,8 +1,10 @@
 {
-  "title": "Bộ 70 Câu Hỏi Ôn Tập Vật Lý Trị Liệu - PHCN",
-  "source": "Bo_70_Cau_Hoi_PHCN.docx; giáo trình phương thức vltl 30.11.25.docx",
+  "title": "Bộ câu hỏi PHCN, phương thức VLTL và bệnh án ngoại khoa",
+  "source": "Bo_70_Cau_Hoi_PHCN.docx; giáo trình phương thức vltl 30.11.25.docx; MẪU BỆNH ÁN NGOẠI KHOA.doc",
   "lessons": {
-    "1": "Vật lý trị liệu - Phục hồi chức năng"
+    "1": "Vật lý trị liệu - Phục hồi chức năng",
+    "2": "Giáo trình phương thức vật lý trị liệu",
+    "3": "Mẫu bệnh án ngoại khoa"
   },
   "questions": [
     {
@@ -930,6 +932,1126 @@
       },
       "answer": "B",
       "explanation": "Đáp án đúng là \"Ngừng ngay điều trị, giảm cường độ hoặc chuyển sang xung (pulse) và đảm bảo di chuyển đầu biến năng; đồng thời kiểm tra vị trí xương khu trú (mấu xương) và hỏi thêm cảm giác bệnh nhân.\" theo bộ 70 câu PHCN và giáo trình phương thức vật lý trị liệu."
+    },
+    {
+      "id": "vltl-gt-q1",
+      "lesson": 2,
+      "question": "Vật lý trị liệu được hiểu đúng nhất là gì?",
+      "options": {
+        "A": "Dùng các biện pháp vật lý tác động lên cơ thể để điều trị, phục hồi chức năng và phòng bệnh.",
+        "B": "Chỉ dùng thuốc để điều trị đau và viêm.",
+        "C": "Chỉ luyện tập vận động cho người bệnh sau phẫu thuật.",
+        "D": "Chỉ dùng nhiệt nóng để giảm đau."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Dùng các biện pháp vật lý tác động lên cơ thể để điều trị, phục hồi chức năng và phòng bệnh.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q2",
+      "lesson": 2,
+      "question": "Mục tiêu chung của phục hồi chức năng là gì?",
+      "options": {
+        "A": "Làm người bệnh nghỉ ngơi hoàn toàn để tránh tái phát.",
+        "B": "Chỉ phục hồi khả năng đi lại.",
+        "C": "Giúp người khuyết tật thực hiện tối đa chức năng, sống độc lập và hòa nhập xã hội.",
+        "D": "Thay thế hoàn toàn các phương pháp điều trị y học khác."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Giúp người khuyết tật thực hiện tối đa chức năng, sống độc lập và hòa nhập xã hội.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q3",
+      "lesson": 2,
+      "question": "Tia hồng ngoại tác dụng sinh học chủ yếu thông qua cơ chế nào?",
+      "options": {
+        "A": "Tác dụng hóa học mạnh trên tế bào.",
+        "B": "Tác dụng nhiệt.",
+        "C": "Tác dụng ion hóa.",
+        "D": "Tác dụng từ trường."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Tác dụng nhiệt.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q4",
+      "lesson": 2,
+      "question": "Các tia hồng ngoại dài thường xuyên thấu qua da khoảng bao nhiêu?",
+      "options": {
+        "A": "0,2 mm.",
+        "B": "2 mm.",
+        "C": "5 - 10 mm.",
+        "D": "15 - 20 mm."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"2 mm.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q5",
+      "lesson": 2,
+      "question": "Các tia hồng ngoại ngắn thường xuyên sâu khoảng bao nhiêu?",
+      "options": {
+        "A": "0,5 - 1 mm.",
+        "B": "1 - 2 mm.",
+        "C": "5 - 10 mm.",
+        "D": "30 - 50 mm."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"5 - 10 mm.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q6",
+      "lesson": 2,
+      "question": "Sự xâm nhập của tia hồng ngoại phụ thuộc vào yếu tố nào?",
+      "options": {
+        "A": "Bước sóng; bước sóng ngắn hơn xuyên sâu hơn.",
+        "B": "Màu sắc bóng đèn; bóng tối xuyên sâu hơn.",
+        "C": "Chỉ phụ thuộc vào tuổi bệnh nhân.",
+        "D": "Chỉ phụ thuộc vào thời gian chiếu, không phụ thuộc bước sóng."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Bước sóng; bước sóng ngắn hơn xuyên sâu hơn.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q7",
+      "lesson": 2,
+      "question": "Hiện tượng đỏ da xung huyết khi chiếu hồng ngoại chủ yếu do đâu?",
+      "options": {
+        "A": "Co mạch ngoại vi do lạnh.",
+        "B": "Ức chế hoàn toàn tuần hoàn tại chỗ.",
+        "C": "Phản ứng dị ứng với ánh sáng.",
+        "D": "Giãn mạch ngoại vi do tác dụng trực tiếp của nhiệt."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Giãn mạch ngoại vi do tác dụng trực tiếp của nhiệt.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q8",
+      "lesson": 2,
+      "question": "Hoại thư khi điều trị hồng ngoại dễ xảy ra trong tình huống nào?",
+      "options": {
+        "A": "Chiếu đúng liều ở vùng da lành.",
+        "B": "Bệnh nhân uống đủ nước trong điều trị.",
+        "C": "Dùng hồng ngoại ở vùng rối loạn tuần hoàn, không đủ oxy khi chuyển hóa tăng.",
+        "D": "Đặt đèn cách xa đúng kỹ thuật."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Dùng hồng ngoại ở vùng rối loạn tuần hoàn, không đủ oxy khi chuyển hóa tăng.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q9",
+      "lesson": 2,
+      "question": "Trường hợp nào là chống chỉ định của điều trị tia hồng ngoại theo giáo trình?",
+      "options": {
+        "A": "Đau lưng cơ năng mạn tính.",
+        "B": "Suy tim độ III, IV.",
+        "C": "Sẹo đã ổn định cần làm mềm.",
+        "D": "Co thắt cơ không cấp tính."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Suy tim độ III, IV.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q10",
+      "lesson": 2,
+      "question": "Tia tử ngoại tác dụng sinh học chủ yếu bằng cơ chế nào?",
+      "options": {
+        "A": "Tác dụng hóa học.",
+        "B": "Tác dụng nhiệt sâu.",
+        "C": "Tác dụng kéo giãn mô mềm.",
+        "D": "Tác dụng thủy tĩnh."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Tác dụng hóa học.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q11",
+      "lesson": 2,
+      "question": "Bộ phận lò của đèn hơi thủy ngân được cấu tạo bằng vật liệu nào để không cản tia tử ngoại?",
+      "options": {
+        "A": "Thủy tinh thường.",
+        "B": "Nhựa trung tính.",
+        "C": "Ống có vỏ bằng thạch anh nóng chảy.",
+        "D": "Kim loại phủ sơn đen."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Ống có vỏ bằng thạch anh nóng chảy.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q12",
+      "lesson": 2,
+      "question": "Phản ứng đỏ da do tử ngoại liên quan chủ yếu đến chất trung gian nào?",
+      "options": {
+        "A": "Insulin.",
+        "B": "Adrenalin.",
+        "C": "Histamin.",
+        "D": "Melatonin."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Histamin.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q13",
+      "lesson": 2,
+      "question": "Đối với tác dụng giảm đau, điều trị tia tử ngoại mức độ nào được giáo trình nêu là tốt nhất?",
+      "options": {
+        "A": "Độ I.",
+        "B": "Độ II.",
+        "C": "Độ III.",
+        "D": "Không mức độ nào có tác dụng giảm đau."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Độ III.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q14",
+      "lesson": 2,
+      "question": "Tia tử ngoại hỗ trợ tạo vitamin D nhờ tác động lên chất nào có sẵn trong da?",
+      "options": {
+        "A": "7-dehydrocholesterol.",
+        "B": "Hemoglobin.",
+        "C": "Collagen type I.",
+        "D": "Acid lactic."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"7-dehydrocholesterol.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q15",
+      "lesson": 2,
+      "question": "Vùng da nào không nên chiếu tử ngoại tại chỗ theo giáo trình?",
+      "options": {
+        "A": "Vùng da lành chưa từng điều trị.",
+        "B": "Vùng da vừa chiếu tia X.",
+        "C": "Vùng có vết thương mạn tính được chỉ định đúng.",
+        "D": "Vùng da cần kích thích lành thương với liều phù hợp."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Vùng da vừa chiếu tia X.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q16",
+      "lesson": 2,
+      "question": "Nếu đã biết liều đỏ da độ I, liều đỏ da độ II thường gấp bao nhiêu lần?",
+      "options": {
+        "A": "1,5 lần.",
+        "B": "2,5 lần.",
+        "C": "5 lần.",
+        "D": "10 lần."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"2,5 lần.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q17",
+      "lesson": 2,
+      "question": "Khi quá liều tử ngoại gây da đỏ, nóng, đau, một biện pháp xử trí được nêu là gì?",
+      "options": {
+        "A": "Tiếp tục chiếu tử ngoại để quen liều.",
+        "B": "Chườm nóng kéo dài bằng nước sôi.",
+        "C": "Dùng đèn hồng ngoại chiếu vào vùng da vừa điều trị tử ngoại để làm giảm đỏ da.",
+        "D": "Xoa bóp mạnh vùng đỏ da."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Dùng đèn hồng ngoại chiếu vào vùng da vừa điều trị tử ngoại để làm giảm đỏ da.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q18",
+      "lesson": 2,
+      "question": "Paraffin dùng trong điều trị có đặc điểm nào đúng?",
+      "options": {
+        "A": "Tinh khiết, trung tính, màu trắng, không độc.",
+        "B": "Có tính acid mạnh để sát khuẩn.",
+        "C": "Luôn dùng dạng lỏng sôi trực tiếp lên da.",
+        "D": "Chỉ dùng toàn thân, không dùng tại chỗ."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Tinh khiết, trung tính, màu trắng, không độc.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q19",
+      "lesson": 2,
+      "question": "Chỉ định của paraffin trong giáo trình được mô tả như thế nào?",
+      "options": {
+        "A": "Chỉ có chỉ định toàn thân.",
+        "B": "Chỉ có chỉ định tại chỗ, không có chỉ định toàn thân.",
+        "C": "Chỉ dùng khi đang chảy máu cấp.",
+        "D": "Chỉ dùng cho ổ viêm đã hóa mủ."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Chỉ có chỉ định tại chỗ, không có chỉ định toàn thân.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q20",
+      "lesson": 2,
+      "question": "Trường hợp nào là chống chỉ định điều trị paraffin?",
+      "options": {
+        "A": "Cần làm mềm sẹo không trợt loét.",
+        "B": "Cần tăng tuần hoàn tại chỗ.",
+        "C": "Đau và co rút cơ mạn tính.",
+        "D": "Vùng da có vết thương, vết loét hoặc bệnh ngoài da."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Vùng da có vết thương, vết loét hoặc bệnh ngoài da.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q21",
+      "lesson": 2,
+      "question": "Trước khi điều trị paraffin ở vùng sẹo, cần kiểm tra điều gì?",
+      "options": {
+        "A": "Vùng da điều trị bình thường, sẹo không bị trợt loét.",
+        "B": "Bệnh nhân phải nhịn ăn hoàn toàn.",
+        "C": "Chỉ cần đo huyết áp, không cần kiểm tra da.",
+        "D": "Luôn cạo sạch toàn bộ lông tóc vùng điều trị."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Vùng da điều trị bình thường, sẹo không bị trợt loét.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q22",
+      "lesson": 2,
+      "question": "Sóng siêu âm trị liệu là loại dao động nào?",
+      "options": {
+        "A": "Sóng ngang giống ánh sáng nhìn thấy.",
+        "B": "Dao động áp lực theo chiều dọc, lan truyền dưới dạng bó sóng.",
+        "C": "Dòng điện một chiều không đổi.",
+        "D": "Từ trường tĩnh không dao động."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Dao động áp lực theo chiều dọc, lan truyền dưới dạng bó sóng.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q23",
+      "lesson": 2,
+      "question": "Nhiệt trong mô khi điều trị siêu âm được tạo ra chủ yếu do cơ chế nào?",
+      "options": {
+        "A": "Phản xạ hoàn toàn trên da.",
+        "B": "Bay hơi nước qua mồ hôi.",
+        "C": "Mô hấp thụ năng lượng của sóng siêu âm.",
+        "D": "Tác dụng lạnh của đầu biến năng."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Mô hấp thụ năng lượng của sóng siêu âm.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q24",
+      "lesson": 2,
+      "question": "Tác dụng cơ học của siêu âm thường được ví như gì?",
+      "options": {
+        "A": "Xoa bóp vi tế hay xoa bóp nội tế bào.",
+        "B": "Cắt bỏ mô bằng dao điện.",
+        "C": "Đông máu bằng nhiệt cao.",
+        "D": "Bất động khớp tuyệt đối."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Xoa bóp vi tế hay xoa bóp nội tế bào.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q25",
+      "lesson": 2,
+      "question": "Theo giáo trình, tác dụng hóa học trực tiếp của siêu âm trong cơ thể được nhìn nhận thế nào?",
+      "options": {
+        "A": "Luôn là tác dụng chính trong điều trị.",
+        "B": "Chắc chắn làm tăng mọi phản ứng hóa học trực tiếp.",
+        "C": "Không liên quan đến tác dụng nhiệt.",
+        "D": "Chưa có chứng cứ rõ ràng, trừ tác dụng gián tiếp qua sinh nhiệt."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Chưa có chứng cứ rõ ràng, trừ tác dụng gián tiếp qua sinh nhiệt.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q26",
+      "lesson": 2,
+      "question": "Siêu âm không được dùng điều trị trực tiếp cho mô nào sau đây?",
+      "options": {
+        "A": "Gân cơ vùng viêm mạn.",
+        "B": "Bao khớp được chỉ định đúng.",
+        "C": "Mắt, tai, buồng trứng, tinh hoàn.",
+        "D": "Sẹo mô mềm đã ổn định."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Mắt, tai, buồng trứng, tinh hoàn.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q27",
+      "lesson": 2,
+      "question": "Vì sao cần môi trường trung gian như nước, dầu hoặc kem khi điều trị siêu âm?",
+      "options": {
+        "A": "Để làm mất hoàn toàn tác dụng siêu âm.",
+        "B": "Vì siêu âm truyền rất kém trong không khí và dễ bị phản xạ.",
+        "C": "Vì đầu biến năng chỉ hoạt động trong môi trường khô.",
+        "D": "Vì không cần tiếp xúc đồng đều với mô."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Vì siêu âm truyền rất kém trong không khí và dễ bị phản xạ.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q28",
+      "lesson": 2,
+      "question": "Trong phương pháp truyền siêu âm qua nước, vì sao nước nên được nấu sôi trước?",
+      "options": {
+        "A": "Để loại bỏ khí hòa tan, tránh bong bóng khí cản trở truyền sóng.",
+        "B": "Để tạo bỏng nhiệt chủ động.",
+        "C": "Để làm tăng âm trở của không khí.",
+        "D": "Để thay thế hoàn toàn gel dẫn."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Để loại bỏ khí hòa tan, tránh bong bóng khí cản trở truyền sóng.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q29",
+      "lesson": 2,
+      "question": "Trước lần điều trị siêu âm đầu tiên, thao tác an toàn nào cần làm?",
+      "options": {
+        "A": "Tăng ngay cường độ tối đa.",
+        "B": "Giữ đầu biến năng cố định ở một điểm.",
+        "C": "Thử cảm giác nóng lạnh vùng điều trị.",
+        "D": "Không cần giải thích cảm giác cho bệnh nhân."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Thử cảm giác nóng lạnh vùng điều trị.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q30",
+      "lesson": 2,
+      "question": "Khi điều trị siêu âm, nếu để đầu trị liệu đứng yên thì nên chọn liều như thế nào?",
+      "options": {
+        "A": "Luôn dùng liều cao nhất.",
+        "B": "Dùng liều thấp vì dễ gây nóng.",
+        "C": "Không cần quan tâm liều.",
+        "D": "Tăng thời gian càng dài càng tốt."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Dùng liều thấp vì dễ gây nóng.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q31",
+      "lesson": 2,
+      "question": "Điện xung trị liệu là phương pháp sử dụng dòng điện như thế nào?",
+      "options": {
+        "A": "Dòng điện liên tục không nghỉ.",
+        "B": "Dòng điện không liên tục tạo thành các xung ngắn có chu kỳ phát xung - nghỉ.",
+        "C": "Chỉ dùng dòng cao tần tạo nhiệt.",
+        "D": "Chỉ dùng từ trường tĩnh."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Dòng điện không liên tục tạo thành các xung ngắn có chu kỳ phát xung - nghỉ.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q32",
+      "lesson": 2,
+      "question": "Đặc điểm an toàn nổi bật của xung lưỡng pha là gì?",
+      "options": {
+        "A": "Dòng đảo chiều trong cùng một xung, không gây tích điện mô.",
+        "B": "Dòng chỉ đi một chiều và tích điện mô mạnh.",
+        "C": "Chỉ tạo nhiệt sâu, không kích thích thần kinh.",
+        "D": "Luôn chống chỉ định trong TENS."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Dòng đảo chiều trong cùng một xung, không gây tích điện mô.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q33",
+      "lesson": 2,
+      "question": "Xung đơn pha được nêu là bắt buộc dùng trong trường hợp nào?",
+      "options": {
+        "A": "Tăng sức bền cơ bình thường.",
+        "B": "Giảm đau khớp lớn bằng giao thoa.",
+        "C": "Cơ mất phân bố thần kinh, cần độ rộng xung lớn.",
+        "D": "Mọi trường hợp đau cấp."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Cơ mất phân bố thần kinh, cần độ rộng xung lớn.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q34",
+      "lesson": 2,
+      "question": "Khi mục tiêu là giảm đau cấp nhanh bằng TENS theo cơ chế Gate Control, tần số thường dùng là khoảng nào?",
+      "options": {
+        "A": "0,1 - 1 Hz.",
+        "B": "2 - 10 Hz.",
+        "C": "20 - 60 Hz.",
+        "D": "80 - 150 Hz."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"80 - 150 Hz.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q35",
+      "lesson": 2,
+      "question": "TENS tần số thấp trong đau mạn có thể giúp giảm đau thông qua cơ chế nào?",
+      "options": {
+        "A": "Kích hoạt hệ nội tiết giảm đau như endorphin.",
+        "B": "Làm bỏng nhẹ có kiểm soát.",
+        "C": "Ức chế hoàn toàn tuần hoàn.",
+        "D": "Tạo bất động khớp."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Kích hoạt hệ nội tiết giảm đau như endorphin.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q36",
+      "lesson": 2,
+      "question": "Modulation trong điện xung trị liệu có mục đích chính nào?",
+      "options": {
+        "A": "Làm mất hoàn toàn cảm giác kích thích.",
+        "B": "Tránh quen kích thích và tăng hiệu quả điều trị.",
+        "C": "Biến điện xung thành tia tử ngoại.",
+        "D": "Chỉ dùng để tăng nguy cơ bỏng."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Tránh quen kích thích và tăng hiệu quả điều trị.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q37",
+      "lesson": 2,
+      "question": "Chống chỉ định tuyệt đối quan trọng của điện xung trị liệu là gì?",
+      "options": {
+        "A": "Đau cơ nhẹ sau vận động.",
+        "B": "Sẹo cũ đã lành.",
+        "C": "Người bệnh có máy tạo nhịp tim.",
+        "D": "Co cứng cơ nhẹ do đau."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Người bệnh có máy tạo nhịp tim.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q38",
+      "lesson": 2,
+      "question": "Dòng Ganvanic là dòng điện một chiều đều gây tác dụng chính nào trong tổ chức?",
+      "options": {
+        "A": "Tạo tia hồng ngoại.",
+        "B": "Làm thay đổi sự tập trung ion và hiện tượng điện thẩm.",
+        "C": "Tạo sóng âm trong mô.",
+        "D": "Tạo sức nổi trong nước."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Làm thay đổi sự tập trung ion và hiện tượng điện thẩm.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q39",
+      "lesson": 2,
+      "question": "Tác dụng vận mạch của dòng Ganvanic được mô tả thế nào?",
+      "options": {
+        "A": "Co mạch ngắn rồi giãn mạch rõ dưới hai điện cực, tồn tại vài giờ.",
+        "B": "Chỉ co mạch kéo dài nhiều ngày.",
+        "C": "Không ảnh hưởng đến mạch máu.",
+        "D": "Chỉ làm giãn mạch khi có nhiệt cao."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Co mạch ngắn rồi giãn mạch rõ dưới hai điện cực, tồn tại vài giờ.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q40",
+      "lesson": 2,
+      "question": "Vật đệm trong điều trị Ganvanic nên có kích thước thế nào so với điện cực?",
+      "options": {
+        "A": "Nhỏ hơn điện cực để tăng mật độ dòng.",
+        "B": "Bằng đúng điện cực.",
+        "C": "Dài hơn mỗi chiều của điện cực khoảng 1 - 2 cm.",
+        "D": "Không cần vật đệm."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Dài hơn mỗi chiều của điện cực khoảng 1 - 2 cm.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q41",
+      "lesson": 2,
+      "question": "Bỏng hóa học dưới điện cực Ganvanic có đặc điểm nào đúng?",
+      "options": {
+        "A": "Cực dương do kiềm, cực âm do acid.",
+        "B": "Chỉ xảy ra ở vùng không có điện cực.",
+        "C": "Không liên quan đến vật đệm.",
+        "D": "Cực dương do acid, cực âm do kiềm."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Cực dương do acid, cực âm do kiềm.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q42",
+      "lesson": 2,
+      "question": "Điện phân thuốc bằng dòng Ganvanic nên áp dụng chủ yếu với mục đích nào?",
+      "options": {
+        "A": "Tác dụng toàn thân thay thế đường uống.",
+        "B": "Mục đích tại chỗ vì liều thuốc vào cơ thể không biết chính xác.",
+        "C": "Gây mê toàn thân.",
+        "D": "Làm mất hoàn toàn phản xạ thần kinh."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Mục đích tại chỗ vì liều thuốc vào cơ thể không biết chính xác.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q43",
+      "lesson": 2,
+      "question": "Vì sao dòng cao tần trong sóng ngắn không gây kích thích thần kinh vận động hay cảm giác rõ?",
+      "options": {
+        "A": "Thời gian tác dụng mỗi xung quá ngắn để kích thích thần kinh.",
+        "B": "Vì nó là dòng một chiều không đổi.",
+        "C": "Vì nó chỉ hoạt động trong nước.",
+        "D": "Vì nó không đi qua mô."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Thời gian tác dụng mỗi xung quá ngắn để kích thích thần kinh.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q44",
+      "lesson": 2,
+      "question": "Tác dụng chính của thâu nhiệt sóng ngắn trên cơ thể là gì?",
+      "options": {
+        "A": "Tạo lạnh sâu.",
+        "B": "Tạo phản ứng đỏ da do tử ngoại.",
+        "C": "Tạo nhiệt trong mô.",
+        "D": "Tạo lực kéo giãn cơ học."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Tạo nhiệt trong mô.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q45",
+      "lesson": 2,
+      "question": "Khi điều trị sóng ngắn cường độ cao và kéo dài, điều gì có thể xảy ra?",
+      "options": {
+        "A": "Thân nhiệt luôn giảm sâu.",
+        "B": "Thân nhiệt tăng, tác động trung tâm vận mạch và điều hòa thân nhiệt.",
+        "C": "Mô hoàn toàn không nóng.",
+        "D": "Không cần theo dõi cảm giác bệnh nhân."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Thân nhiệt tăng, tác động trung tâm vận mạch và điều hòa thân nhiệt.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q46",
+      "lesson": 2,
+      "question": "Trong viêm cấp tính, thâu nhiệt sóng ngắn có thể gây hậu quả nào?",
+      "options": {
+        "A": "Luôn làm mất triệu chứng ngay tức thì.",
+        "B": "Không có tác dụng sinh học.",
+        "C": "Chỉ làm lạnh mô viêm.",
+        "D": "Có thể làm gia tăng các triệu chứng viêm."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Có thể làm gia tăng các triệu chứng viêm.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q47",
+      "lesson": 2,
+      "question": "Liều lượng sóng ngắn được tính chủ yếu dựa vào yếu tố nào?",
+      "options": {
+        "A": "Màu của điện cực.",
+        "B": "Số trang bệnh án.",
+        "C": "Cảm giác nhiệt của bệnh nhân.",
+        "D": "Chiều cao giường điều trị."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Cảm giác nhiệt của bệnh nhân.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q48",
+      "lesson": 2,
+      "question": "Trước khi điều trị sóng ngắn lần đầu cần làm gì để phòng bỏng?",
+      "options": {
+        "A": "Thử cảm giác nóng lạnh của da vùng điều trị.",
+        "B": "Bắt đầu bằng cường độ tối đa.",
+        "C": "Đặt bệnh nhân một mình trong phòng.",
+        "D": "Để bệnh nhân mang vật kim loại."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Thử cảm giác nóng lạnh của da vùng điều trị.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q49",
+      "lesson": 2,
+      "question": "Trường hợp nào là chống chỉ định của sóng ngắn theo giáo trình?",
+      "options": {
+        "A": "Co thắt cơ mạn tính có chỉ định.",
+        "B": "Vùng nghi ung thư, viêm tĩnh mạch hoặc nhiễm trùng sâu có mủ.",
+        "C": "Cần làm nóng mô sâu vùng khớp háng đúng chỉ định.",
+        "D": "Đau mạn không có chống chỉ định."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Vùng nghi ung thư, viêm tĩnh mạch hoặc nhiễm trùng sâu có mủ.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q50",
+      "lesson": 2,
+      "question": "Kéo giãn cột sống được định nghĩa là gì?",
+      "options": {
+        "A": "Chiếu ánh sáng lên cột sống.",
+        "B": "Dùng dòng điện một chiều qua cột sống.",
+        "C": "Áp dụng lực cơ học để tách mặt khớp và kéo dài mô mềm xung quanh.",
+        "D": "Chỉ xoa bóp da vùng lưng."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Áp dụng lực cơ học để tách mặt khớp và kéo dài mô mềm xung quanh.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q51",
+      "lesson": 2,
+      "question": "Kéo giãn có thể được thực hiện bằng cách nào?",
+      "options": {
+        "A": "Chỉ bằng tay kỹ thuật viên.",
+        "B": "Chỉ bằng máy kéo.",
+        "C": "Chỉ bằng trọng lượng người bệnh.",
+        "D": "Bằng tay, dụng cụ cơ học hoặc trọng lượng chính người bệnh."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Bằng tay, dụng cụ cơ học hoặc trọng lượng chính người bệnh.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q52",
+      "lesson": 2,
+      "question": "Laser trị liệu được mô tả là dùng loại ánh sáng nào?",
+      "options": {
+        "A": "Ánh sáng đơn sắc, có độ kết dính cao.",
+        "B": "Ánh sáng bất kỳ không có tính định hướng.",
+        "C": "Tia X ion hóa mạnh.",
+        "D": "Sóng âm tần số cao."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Ánh sáng đơn sắc, có độ kết dính cao.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q53",
+      "lesson": 2,
+      "question": "Từ trường trị liệu được nêu có tác dụng nào?",
+      "options": {
+        "A": "Chỉ gây bỏng hóa học dưới điện cực.",
+        "B": "Chống viêm, giảm phù nề và kích thích phát triển can xương.",
+        "C": "Chỉ dùng để đo huyết áp.",
+        "D": "Làm mất hoàn toàn cảm giác đau vĩnh viễn."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Chống viêm, giảm phù nề và kích thích phát triển can xương.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q54",
+      "lesson": 2,
+      "question": "Khi dùng nam châm hoặc từ trường điều trị, cần tránh điều gì?",
+      "options": {
+        "A": "Tránh ghi hồ sơ điều trị.",
+        "B": "Tránh đặt trên mọi vùng da lành.",
+        "C": "Tránh để tiếp xúc với đồng hồ, la bàn hoặc thiết bị dễ bị ảnh hưởng từ.",
+        "D": "Tránh kiểm tra vùng da."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Tránh để tiếp xúc với đồng hồ, la bàn hoặc thiết bị dễ bị ảnh hưởng từ.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "vltl-gt-q55",
+      "lesson": 2,
+      "question": "Phục hồi chức năng theo giáo trình bao gồm cách tiếp cận nào?",
+      "options": {
+        "A": "Chỉ dùng một kỹ thuật duy nhất cho mọi bệnh nhân.",
+        "B": "Áp dụng phối hợp y học, kỹ thuật phục hồi, giáo dục học và xã hội học.",
+        "C": "Chỉ tập trung vào điều trị thuốc.",
+        "D": "Chỉ chăm sóc tại giường, không hướng đến hòa nhập."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Áp dụng phối hợp y học, kỹ thuật phục hồi, giáo dục học và xã hội học.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q1",
+      "lesson": 3,
+      "question": "Tài liệu mẫu bệnh án ngoại khoa này là loại bệnh án nào?",
+      "options": {
+        "A": "Bệnh án hậu phẫu.",
+        "B": "Bệnh án tiền phẫu.",
+        "C": "Phiếu xét nghiệm sinh hóa.",
+        "D": "Đơn thuốc ngoại trú."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Bệnh án tiền phẫu.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q2",
+      "lesson": 3,
+      "question": "Phần hành chính yêu cầu họ tên bệnh nhân được ghi như thế nào?",
+      "options": {
+        "A": "Viết bằng chữ in hoa, kèm giới tính, tuổi, dân tộc.",
+        "B": "Chỉ ghi tên gọi ở nhà.",
+        "C": "Chỉ ghi tuổi, không cần họ tên.",
+        "D": "Ghi tùy ý, không cần thống nhất."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Viết bằng chữ in hoa, kèm giới tính, tuổi, dân tộc.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q3",
+      "lesson": 3,
+      "question": "Địa chỉ trong phần hành chính nên ghi theo thứ tự nào?",
+      "options": {
+        "A": "Tỉnh, huyện, xã, thôn.",
+        "B": "Số điện thoại trước, địa chỉ sau.",
+        "C": "Thôn/xóm, xã, huyện, tỉnh và số điện thoại nếu có.",
+        "D": "Chỉ cần ghi tên tỉnh."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Thôn/xóm, xã, huyện, tỉnh và số điện thoại nếu có.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q4",
+      "lesson": 3,
+      "question": "Lý do vào viện được định nghĩa là gì?",
+      "options": {
+        "A": "Toàn bộ tiền sử bệnh từ nhỏ đến nay.",
+        "B": "Biểu hiện khó chịu nhất bắt buộc bệnh nhân phải đi khám bệnh.",
+        "C": "Chẩn đoán cuối cùng sau phẫu thuật.",
+        "D": "Danh sách toàn bộ thuốc đã dùng."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Biểu hiện khó chịu nhất bắt buộc bệnh nhân phải đi khám bệnh.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q5",
+      "lesson": 3,
+      "question": "Khi ghi lý do vào viện, nguyên tắc nào đúng theo mẫu?",
+      "options": {
+        "A": "Ghi càng nhiều triệu chứng càng tốt.",
+        "B": "Dùng dấu cộng giữa mọi triệu chứng.",
+        "C": "Chỉ ghi bằng thuật ngữ xét nghiệm.",
+        "D": "Thường không quá 3 triệu chứng, cách nhau bằng dấu phẩy hoặc gạch nối."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Thường không quá 3 triệu chứng, cách nhau bằng dấu phẩy hoặc gạch nối.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q6",
+      "lesson": 3,
+      "question": "Với bệnh nhân mới nhập viện, bệnh sử gồm mấy giai đoạn?",
+      "options": {
+        "A": "2 giai đoạn.",
+        "B": "3 giai đoạn.",
+        "C": "4 giai đoạn.",
+        "D": "Không chia giai đoạn."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"2 giai đoạn.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q7",
+      "lesson": 3,
+      "question": "Giai đoạn bệnh tình hiện tại ở bệnh nhân mới nhập viện cần ghi gì?",
+      "options": {
+        "A": "Chỉ ghi dấu hiệu thực thể khám được.",
+        "B": "Chỉ ghi kết quả xét nghiệm.",
+        "C": "Chỉ ghi triệu chứng cơ năng, không ghi thực thể.",
+        "D": "Chỉ ghi tên thuốc đang dùng."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Chỉ ghi triệu chứng cơ năng, không ghi thực thể.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q8",
+      "lesson": 3,
+      "question": "Với bệnh nhân đã và đang điều trị tại bệnh viện, bệnh sử gồm mấy giai đoạn?",
+      "options": {
+        "A": "2 giai đoạn.",
+        "B": "4 giai đoạn.",
+        "C": "5 giai đoạn.",
+        "D": "Không cần ghi bệnh sử."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"4 giai đoạn.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q9",
+      "lesson": 3,
+      "question": "Nếu bệnh nhân nằm điều trị dưới một tuần, diễn tiến bệnh phòng nên ghi như thế nào?",
+      "options": {
+        "A": "Theo từng ngày.",
+        "B": "Chỉ ghi khi ra viện.",
+        "C": "Chỉ ghi một dòng chung.",
+        "D": "Không cần ghi nếu triệu chứng giảm."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Theo từng ngày.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q10",
+      "lesson": 3,
+      "question": "Khi mô tả bệnh sử, nguyên tắc quan trọng là gì?",
+      "options": {
+        "A": "Ghi triệu chứng theo thứ tự ngẫu nhiên.",
+        "B": "Chỉ ghi triệu chứng nặng nhất.",
+        "C": "Nêu diễn biến tuần tự theo thời gian và ảnh hưởng qua lại của triệu chứng.",
+        "D": "Chỉ ghi kết luận của bác sĩ tuyến trước."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Nêu diễn biến tuần tự theo thời gian và ảnh hưởng qua lại của triệu chứng.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q11",
+      "lesson": 3,
+      "question": "Đặc điểm triệu chứng trong bệnh sử cần mô tả nội dung nào?",
+      "options": {
+        "A": "Hoàn cảnh khởi phát và thời điểm xuất hiện.",
+        "B": "Vị trí, mức độ, tính chất và hướng lan.",
+        "C": "Yếu tố làm tăng/giảm và triệu chứng kèm theo.",
+        "D": "Tất cả các nội dung trên."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Tất cả các nội dung trên.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q12",
+      "lesson": 3,
+      "question": "Tiền sử bệnh tật bản thân nên ghi gì?",
+      "options": {
+        "A": "Chỉ ghi các bệnh không liên quan.",
+        "B": "Các bệnh đã mắc có liên quan bệnh hiện tại hoặc bệnh nặng ảnh hưởng sức khỏe/chất lượng sống.",
+        "C": "Chỉ ghi sở thích cá nhân.",
+        "D": "Chỉ ghi nghề nghiệp."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Các bệnh đã mắc có liên quan bệnh hiện tại hoặc bệnh nặng ảnh hưởng sức khỏe/chất lượng sống.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q13",
+      "lesson": 3,
+      "question": "Trong tiền sử bản thân, mục thói quen cần chú ý nội dung nào?",
+      "options": {
+        "A": "Uống rượu bia, hút thuốc lá, tiếp xúc hóa chất có ảnh hưởng đến bệnh hiện tại.",
+        "B": "Chỉ ghi món ăn yêu thích.",
+        "C": "Chỉ ghi nhóm máu.",
+        "D": "Chỉ ghi chiều cao cân nặng."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Uống rượu bia, hút thuốc lá, tiếp xúc hóa chất có ảnh hưởng đến bệnh hiện tại.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q14",
+      "lesson": 3,
+      "question": "Mục dị ứng trong tiền sử cần hỏi và ghi gì?",
+      "options": {
+        "A": "Chỉ dị ứng thời tiết.",
+        "B": "Chỉ dị ứng thuốc gây sốc.",
+        "C": "Thức ăn, nước uống hoặc thuốc từng gây dị ứng.",
+        "D": "Không cần ghi nếu bệnh nhân không nhớ liều thuốc."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Thức ăn, nước uống hoặc thuốc từng gây dị ứng.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q15",
+      "lesson": 3,
+      "question": "Tiền sử gia đình cần khai thác nội dung nào?",
+      "options": {
+        "A": "Chỉ nghề nghiệp của bố mẹ.",
+        "B": "Chỉ số điện thoại người thân.",
+        "C": "Chỉ chiều cao của người thân.",
+        "D": "Người trong gia đình mắc bệnh giống bệnh nhân hoặc bệnh đặc biệt có tính gia đình/di truyền."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Người trong gia đình mắc bệnh giống bệnh nhân hoặc bệnh đặc biệt có tính gia đình/di truyền.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q16",
+      "lesson": 3,
+      "question": "Mục dịch tễ trong bệnh án nhằm hỏi gì?",
+      "options": {
+        "A": "Bệnh nhân thích ăn gì.",
+        "B": "Xung quanh hàng xóm hoặc vùng sinh sống có bệnh giống/bệnh đặc biệt không.",
+        "C": "Bệnh nhân có bảo hiểm không.",
+        "D": "Bệnh nhân dùng điện thoại hãng nào."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Xung quanh hàng xóm hoặc vùng sinh sống có bệnh giống/bệnh đặc biệt không.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q17",
+      "lesson": 3,
+      "question": "Khi khám lâm sàng, mẫu bệnh án yêu cầu ghi rõ điều gì?",
+      "options": {
+        "A": "Thời gian khám.",
+        "B": "Màu bút ghi bệnh án.",
+        "C": "Tên người nhà đứng cạnh.",
+        "D": "Số trang tài liệu tham khảo."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Thời gian khám.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q18",
+      "lesson": 3,
+      "question": "Nếu bệnh nhân ly bì, ngủ gà hoặc hôn mê, cần đánh giá hôn mê theo thang điểm nào?",
+      "options": {
+        "A": "Apgar.",
+        "B": "ASA.",
+        "C": "Glasgow.",
+        "D": "BMI."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Glasgow.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q19",
+      "lesson": 3,
+      "question": "Dấu hiệu sinh tồn trong mẫu gồm những nội dung nào?",
+      "options": {
+        "A": "Nhiệt độ, mạch, huyết áp.",
+        "B": "Nhịp thở và SpO2.",
+        "C": "Lượng nước tiểu nếu cần.",
+        "D": "Tất cả các nội dung trên."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Tất cả các nội dung trên.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q20",
+      "lesson": 3,
+      "question": "Nguyên tắc khám các cơ quan trong mẫu bệnh án là gì?",
+      "options": {
+        "A": "Luôn nghe trước mọi cơ quan.",
+        "B": "Nhìn - sờ - gõ - nghe; riêng khám bụng là nhìn - nghe - gõ - sờ, chấn thương vận động là nhìn - sờ - đo.",
+        "C": "Chỉ hỏi bệnh, không cần khám.",
+        "D": "Chỉ khám cơ quan bị bệnh, bỏ qua toàn trạng."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Nhìn - sờ - gõ - nghe; riêng khám bụng là nhìn - nghe - gõ - sờ, chấn thương vận động là nhìn - sờ - đo.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q21",
+      "lesson": 3,
+      "question": "Khi khám mạch, nguyên tắc nào đúng?",
+      "options": {
+        "A": "Bắt mạch hai bên để so sánh.",
+        "B": "Chỉ bắt một bên thuận tay.",
+        "C": "Không cần đo huyết áp.",
+        "D": "Chỉ nghe tim là đủ."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Bắt mạch hai bên để so sánh.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q22",
+      "lesson": 3,
+      "question": "Khi khám hô hấp có khó thở, cần xác định thêm điều gì?",
+      "options": {
+        "A": "Bệnh nhân thuận tay nào.",
+        "B": "Màu áo bệnh nhân.",
+        "C": "Khó thở thì thở ra, thở vào hay cả hai thì.",
+        "D": "Bệnh nhân ăn bữa cuối lúc nào."
+      },
+      "answer": "C",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Khó thở thì thở ra, thở vào hay cả hai thì.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q23",
+      "lesson": 3,
+      "question": "Khi sờ bụng trong khám tiêu hóa, nên thực hiện như thế nào?",
+      "options": {
+        "A": "Sờ mạnh ngay vùng đau nhất.",
+        "B": "Chỉ sờ khi bệnh nhân yêu cầu.",
+        "C": "Sờ theo thứ tự bất kỳ.",
+        "D": "Sờ từ vị trí không đau trước đến vị trí đau."
+      },
+      "answer": "D",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Sờ từ vị trí không đau trước đến vị trí đau.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q24",
+      "lesson": 3,
+      "question": "Sau thăm trực tràng, cần làm gì khi rút găng ra?",
+      "options": {
+        "A": "Xem tính chất phân và có máu hay không.",
+        "B": "Bỏ qua vì đã khám xong.",
+        "C": "Chỉ ghi cảm giác đau.",
+        "D": "Chỉ đo huyết áp lại."
+      },
+      "answer": "A",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Xem tính chất phân và có máu hay không.\" theo tài liệu nguồn đã cung cấp."
+    },
+    {
+      "id": "benh-an-nk-q25",
+      "lesson": 3,
+      "question": "Khi khám bụng, dấu hiệu nào cần loại trừ để phát hiện bụng ngoại khoa?",
+      "options": {
+        "A": "Móng tay khum.",
+        "B": "Cảm ứng phúc mạc và phản ứng thành bụng.",
+        "C": "Tóc khô dễ gãy.",
+        "D": "Hạch ngoại vi không đau."
+      },
+      "answer": "B",
+      "type": "mcq",
+      "explanation": "Đáp án đúng là \"Cảm ứng phúc mạc và phản ứng thành bụng.\" theo tài liệu nguồn đã cung cấp."
     }
   ]
 }
