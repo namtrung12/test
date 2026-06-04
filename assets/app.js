@@ -53,8 +53,8 @@
 
             const bank = await response.json();
 
-            if (!bank || !Array.isArray(bank.questions) || !bank.questions.length) {
-                throw new Error('Dữ liệu câu hỏi rỗng hoặc sai định dạng.');
+            if (!bank || !Array.isArray(bank.questions)) {
+                throw new Error('Dữ liệu câu hỏi sai định dạng.');
             }
 
             state.sourceBank = bank;
@@ -237,6 +237,11 @@
     }
 
     function renderHeroNote() {
+        if (!state.bank.questions.length) {
+            elements.heroNote.textContent = 'Bộ đề hiện chưa có câu hỏi.';
+            return;
+        }
+
         elements.heroNote.textContent = 'Mỗi câu chỉ chọn một lần. Chạm vào đáp án là web báo đúng hoặc sai ngay. Reload trang không làm đổi đề.';
     }
 
@@ -245,10 +250,25 @@
     }
 
     function renderQuizSummary() {
+        if (!state.quiz.length) {
+            elements.quizSummary.textContent = 'Bộ đề hiện chưa có câu hỏi.';
+            return;
+        }
+
         elements.quizSummary.textContent = 'Bộ đề có ' + state.quiz.length + ' câu. Chạm đáp án để xem kết quả ngay trên từng câu.';
     }
 
     function renderQuiz() {
+        if (!state.quiz.length) {
+            elements.quizQuestions.innerHTML = [
+                '<article class="question-card blank">',
+                '<h3>Chưa có câu hỏi</h3>',
+                '<p>Ngân hàng câu hỏi đang để trống.</p>',
+                '</article>',
+            ].join('');
+            return;
+        }
+
         elements.quizQuestions.innerHTML = state.quiz.map(function (question, index) {
             return renderQuestionCard(question, index);
         }).join('');
@@ -447,6 +467,9 @@
 
     function updateProgress() {
         if (!state.quiz.length || !state.result) {
+            elements.progressText.textContent = 'Chưa có câu hỏi';
+            elements.progressMeta.textContent = 'Ngân hàng câu hỏi đang để trống.';
+            elements.progressBar.style.width = '0%';
             return;
         }
 
