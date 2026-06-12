@@ -1,10 +1,10 @@
-# Bộ đề trắc nghiệm Vận động trị liệu
+# Bộ câu hỏi trắc nghiệm Nghiên cứu khoa học
 
 Web app tĩnh `HTML/CSS/JS` để deploy trực tiếp lên GitHub Pages.
 
 ## Hiện trạng
 
-- Chỉ có `1` bộ đề tổng hợp duy nhất.
+- Chỉ có `1` bộ câu hỏi tổng hợp duy nhất.
 - Dữ liệu câu hỏi chạy từ `data/question-bank.json`.
 - Toàn bộ giao diện làm bài là `trắc nghiệm chọn đáp án`.
 - Các câu `ghép ý` được quy đổi thành nhiều câu trắc nghiệm để vẫn giữ được tối đa nội dung.

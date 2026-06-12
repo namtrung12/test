@@ -1,6 +1,6 @@
 (function () {
     const DATA_URL = 'data/question-bank.json';
-    const STORAGE_KEY = 'vdtl-mcq-quiz-state-v3';
+    const STORAGE_KEY = 'nckh-mcq-quiz-state-v1';
 
     const state = {
         sourceBank: null,
@@ -76,6 +76,7 @@
 
             state.sourceBank = bank;
             state.bank = normalizeBank(bank);
+            document.title = (state.bank.title || 'Bộ câu hỏi Nghiên cứu khoa học') + ' | Trắc nghiệm';
 
             renderHeroMeta();
             renderAnswerTools();
